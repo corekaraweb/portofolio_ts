@@ -355,10 +355,10 @@ main .txt {
   width: 48%;
 }
 .main-inner.portfolio .portfolio-inner .itemlist .item .btn-area .btn.github a::before {
-  background-image: url(../images/ico_github.png);
+  background-image: url(./assets/ico_github.png);
 }
 .main-inner.portfolio .portfolio-inner .itemlist .item .btn-area .btn.viewsite a::before {
-  background-image: url(../images/ico_link.png);
+  background-image: url(./assets/ico_link.png);
 }
 .main-inner.portfolio .portfolio-inner .itemlist .item .btn-area .btn a {
   font-size: 16px;

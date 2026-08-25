@@ -1,7 +1,11 @@
-import { useRef, useState, type MouseEvent, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 import './App.css';
 import mockupPhotomamire from './assets/mockup_photomamire.png';
 import mockupPortfolio from './assets/mockup_portfolio.png';
+
+type MailtoUiApp = {
+  listenForClickOnLink?: () => void;
+};
 
 function DetailAccordion({ children }: { children: ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,6 +47,11 @@ function DetailAccordion({ children }: { children: ReactNode }) {
 }
 
 function App() {
+  useEffect(() => {
+    const mailtouiApp = (window as Window & { mailtouiApp?: MailtoUiApp }).mailtouiApp;
+    mailtouiApp?.listenForClickOnLink?.();
+  }, []);
+
   return (
     <>
       <main>

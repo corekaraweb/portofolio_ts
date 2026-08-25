@@ -367,10 +367,10 @@ main {
           .btn {
             width: 48%;
             &.github a::before {
-              background-image: url(../images/ico_github.png);
+              background-image: url(./assets/ico_github.png);
             }
             &.viewsite a::before {
-              background-image: url(../images/ico_link.png);
+              background-image: url(./assets/ico_link.png);
             }
             a {
               font-size: 16px;
