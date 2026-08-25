@@ -115,6 +115,8 @@ p.sub {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #00c2a8;
   font-size: min(3vw, 18px);
   background-color: rgba(0, 194, 168, 0.25);
@@ -338,6 +340,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 3px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #8fa3b1;
   font-size: 13px;
   background-color: rgba(255, 255, 255, 0.08);
@@ -527,6 +531,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #f2a654;
   font-size: min(3vw, 18px);
   background-color: rgba(242, 165, 83, 0.25);
@@ -546,6 +552,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #00c2a8;
   font-size: min(3vw, 18px);
   background-color: rgba(0, 194, 168, 0.25);
@@ -679,6 +687,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 4px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #e2e2e2;
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.06);
@@ -846,6 +856,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #00c2a8;
   font-size: 16px;
   background-color: rgba(0, 194, 168, 0.25);
@@ -864,6 +876,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #f2a654;
   font-size: 16px;
   background-color: rgba(242, 165, 83, 0.25);
@@ -881,6 +895,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: rgb(236, 6, 6);
   font-size: 16px;
   background-color: rgba(238, 36, 9, 0.12);
@@ -950,6 +966,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 8px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #00c2a8;
   font-size: 16px;
   background-color: rgba(26, 198, 130, 0.15);
@@ -977,6 +995,8 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 4px;
   margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
   color: #8fa3b1;
   font-size: 11px;
   background-color: rgba(255, 255, 255, 0.06);
