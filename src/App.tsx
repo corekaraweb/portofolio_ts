@@ -556,19 +556,19 @@ function App() {
                       WordPress オリジナルテーマ開発<span>（テンプレート階層・カスタム投稿）</span>
                     </li>
                     <li>
-                      SEOからLLMO・AIOへ拡張<span>（AI検索時代の最適化）</span>
+                      SEOからLLMO・AIOへ拡張<span>（検索エンジンとAI回答への露出設計）</span>
                     </li>
                     <li>
                       コンテンツ・情報アーキテクチャ設計<span>（サイト構造・導線）</span>
                     </li>
                     <li>
-                      PHP<span>（WordPressからLaravelへ応用）</span>
+                      PHPフレームワーク<span>（Laravelでの開発）</span>
                     </li>
                     <li>
                       jQueryからVanilla JSへ<span>（ES2015+・DOM操作）</span>
                     </li>
                     <li>
-                      Webライティング<span>（SEO記事からAI時代の執筆へ）</span>
+                      Webライティング<span>（構成設計・編集・校正）</span>
                     </li>
                   </ul>
                 </div>
