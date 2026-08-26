@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
-import './App.css';
-import mockupPhotomamire from './assets/mockup_photomamire.png';
-import mockupPortfolio from './assets/mockup_portfolio.png';
-import './reset.css';
+import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from "react";
+import "./App.css";
+import mockupPhotomamire from "./assets/mockup_photomamire.png";
+import mockupPortfolio from "./assets/mockup_portfolio.png";
+import "./reset.css";
 
 type MailtoUiApp = {
   listenForClickOnLink?: () => void;
@@ -17,7 +17,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
     if (!detailBlock) {
       return;
     }
-    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : '0';
+    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : "0";
   };
 
   const toggleOpen = () => {
@@ -37,7 +37,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
       <p className="btn" onClick={toggleOpen}>
         もっと詳しく<span className="arrow">↓</span>
       </p>
-      <div ref={blockRef} className={`detail-block${isOpen ? ' is-open' : ''}`}>
+      <div ref={blockRef} className={`detail-block${isOpen ? " is-open" : ""}`}>
         {children}
         <a className="close" href="#" onClick={handleClose}>
           閉じる
@@ -83,7 +83,7 @@ function App() {
             <div className="appeal">
               <div className="sc box wow animated fadeInUp" data-wow-delay="1.2s">
                 <div className="snum">
-                  <span className="aca">13年</span>
+                  <span className="aca">13年+</span>
                 </div>
                 <div className="slbl">WordPress実務経験（オリジナルテーマ開発・SEO・コンテンツ作成）</div>
               </div>
@@ -236,10 +236,7 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>
-                          開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTMLで構造を固めてから段階的にReact化する進め方を取りました。技術書で学習しながら、このWebページのReact化も同時並行で実施。草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用し、OSとしてRocky Linux 8を導入しました。その中で、Let's
-                          EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。さらに、このReactサイトの静的配信と、サブドメインで動くSpring Boot（ShareCare）へのリバースプロキシを1台で担わせています。GitHub Actionsからの自動デプロイまで自分で構築しました。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
-                        </p>
+                        <p>開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、段階的にReact化する進め方を取りました。技術書で学習しながら、このWebページのReact化も同時並行で実施。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux 8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、サブドメインで動くSpring Boot（ShareCare）へのリバースプロキシを1台で担わせています。GitHub Actionsを使った自動デプロイにも対応しています。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。</p>
                       </div>
                     </div>
                   </DetailAccordion>
@@ -251,7 +248,7 @@ function App() {
                     </div>
                     <div className="txt">
                       <h2>WordPressオリジナルブログ『写真まみれ』</h2>
-                      <p>WordPressのオリジナルテーマで開発した写真ブログです。テンプレート階層を自分で組み立てられるクラシックテーマをあえて選び、斜めに傾けたサムネイルの疑似スクロールや、タグ指定による検索など、UI演出とクエリ制御の両面で工夫しました。</p>
+                      <p>WordPressのオリジナルテーマで開発した写真ブログです。開発や更新のしやすさを重視し、クラシックテーマで構築しました。斜めに傾けたサムネイルリストの疑似的スクロールや、タグ指定による検索など、UI演出とクエリ制御の両面で工夫しました。</p>
                       <div className="tags">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -316,10 +313,7 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>
-                          趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。
-                          ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。
-                        </p>
+                        <p>趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。 ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。</p>
                       </div>
                     </div>
                   </DetailAccordion>
