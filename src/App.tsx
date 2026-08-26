@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 're
 import './App.css';
 import mockupPhotomamire from './assets/mockup_photomamire.png';
 import mockupPortfolio from './assets/mockup_portfolio.png';
+import './reset.css';
 
 type MailtoUiApp = {
   listenForClickOnLink?: () => void;
@@ -464,7 +465,7 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>React・TypeScript・HTML5・CSS3</td>
+                              <td>React・TypeScript・HTML5・CSS3・Sass</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
@@ -617,7 +618,9 @@ function App() {
                           <a href="#">GitHubを見る</a>
                         </div>
                         <div className="viewsite btn">
-                          <a href="#">サイトを見る</a>
+                          <a href="http://ec2-15-168-196-144.ap-northeast-3.compute.amazonaws.com/" target="_blank">
+                            サイトを見る
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -629,19 +632,19 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>React・TypeScript・HTML5・CSS3</td>
+                              <td>React・TypeScript・HTML5・CSS3・Sass</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
-                              <td>PHP</td>
+                              <td>PHP8.5.9（Laravel）</td>
                             </tr>
                             <tr>
                               <th>データベース</th>
-                              <td>MariaDB</td>
+                              <td>MariaDB（AWS RDS）</td>
                             </tr>
                             <tr>
                               <th>インフラ</th>
-                              <td>AWS</td>
+                              <td>AWS（Amazon Linux 2023 / Apache）</td>
                             </tr>
                             <tr>
                               <th>開発ツール</th>
@@ -663,6 +666,7 @@ function App() {
                         <p>現在開発中！</p>
                       </div>
                     </div>
+                    <div className="assets"></div>
                   </DetailAccordion>
                 </div>
                 <div className="item wow animated fadeInUp">
@@ -702,7 +706,7 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>HTML5・CSS3・Sass・JavaScript</td>
+                              <td>HTML5・CSS3・Sass・JavaScript・Sass</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
