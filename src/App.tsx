@@ -550,10 +550,10 @@ function App() {
                   <p>13年の実務で培った経験を今も磨き続けています。現場で得たスキルを、より確かな技術力へと育ててきました。</p>
                   <ul>
                     <li>
-                      HTML・CSS<span>（Grid・コンテナクエリ・Sass）</span>
+                      HTML・CSS<span>（Sass・グリッドレイアウト・レスポンシブ対応）</span>
                     </li>
                     <li>
-                      WordPress オリジナルテーマ開発<span>（テンプレート階層・カスタム投稿）</span>
+                      WordPress オリジナルテーマ開発<span>（ブロックエディタ対応）</span>
                     </li>
                     <li>
                       SEOからLLMO・AIOへ拡張<span>（検索エンジンとAI回答への露出設計）</span>
@@ -562,7 +562,7 @@ function App() {
                       コンテンツ・情報アーキテクチャ設計<span>（サイト構造・導線）</span>
                     </li>
                     <li>
-                      PHPフレームワーク<span>（Laravelでの開発）</span>
+                      モダンPHPコーディング<span>（保守しやすく安全なコード）</span>
                     </li>
                     <li>
                       jQueryからVanilla JSへ<span>（ES2015+・DOM操作）</span>
