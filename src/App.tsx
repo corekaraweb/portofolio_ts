@@ -59,7 +59,7 @@ function App() {
         <div className="top main-inner">
           <div className="top-inner">
             <div className="fv">
-              <p className="sub">PORTFOLIO 2027</p>
+              <p className="sub">Hideki Murakami - PORTFOLIO 2027</p>
               <h1>
                 <span className="wow animated fadeInLeft" data-wow-delay="0.3s">
                   Engineer
@@ -77,7 +77,7 @@ function App() {
                 <div className="badge">ITシステム科 職業訓練</div>
               </div>
               <div className="txt">
-                <p>福祉の現場を知るエンジニアとして、 テクノロジーで社会課題を解決することを目指しています。 Java + AWS + Laravel + React + TypeScript を習得済み。</p>
+                <p>福祉の現場を知るエンジニアとして、 テクノロジーで社会課題を解決することを目指しています。 Java + AWS + Laravel + React + TypeScript を習得。</p>
               </div>
             </div>
             <div className="appeal">
@@ -95,9 +95,9 @@ function App() {
               </div>
               <div className="sc box wow animated fadeInUp" data-wow-delay="2.3s">
                 <div className="snum">
-                  <span className="acc">障害福祉</span>
+                  <span className="acc">7年+</span>
                 </div>
-                <div className="slbl">対人支援と課題解決の豊富な実績</div>
+                <div className="slbl">障害福祉の現場（3事業所）でWeb制作・職業指導員に従事</div>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ function App() {
                   <div className="year">～2026年</div>
                   <div className="contents">
                     <h2>WordPress × SEO × 障害福祉</h2>
-                    <p>オリジナルテーマ開発・SEO施策・コンテンツ作成を13年間経験。ユーザー視点のWeb構築とプロジェクトマネジメントを現場で習得。その後、障害者の就労支援施設にてWeb制作の職業指導員となり、これが社会福祉に関わるきっかけとなりました。</p>
+                    <p>オリジナルテーマ開発・SEO施策・コンテンツ作成を13年間経験。ユーザー視点のWeb構築とプロジェクトマネジメントを現場で習得しました。うち約6年は障害福祉の事業所に所属し、WordPressテーマ開発やWebライティングを担当しました。その後、就労支援施設にてWeb制作の職業指導員となり、利用者・スタッフの双方と日々接する中で、福祉の現場に本当に必要なものが何かを考え続けてきました。</p>
                     <div className="badgelist">
                       <div className="badge">WordPress</div>
                       <div className="badge">PHP</div>
@@ -130,7 +130,7 @@ function App() {
                   <div className="year">2026年～2027年</div>
                   <div className="contents">
                     <h2>ITシステム科 職業訓練</h2>
-                    <p>Java・AWS・Laravel・React・TypeScript を体系的に学習。Java Gold SE17・AWS 3冠を取得し、バックエンドとクラウドの基礎を確立しました。</p>
+                    <p>Java・AWS・Laravel・React・TypeScript を体系的に学習。Java Gold SE17・AWS 3冠を取得し、バックエンドとクラウドの基礎を確立しました。学んだ技術は座学で終わらせず、福祉の現場で感じた課題を題材にした社内向けWebアプリや備品管理システムなど、4つの作品として実装まで形にしました。</p>
                     <div className="badgelist">
                       <div className="badge">Java Gold SE17</div>
                       <div className="badge">AWS AIF</div>
@@ -152,276 +152,12 @@ function App() {
             </div>
           </div>
         </div>
-
-        <div className="value main-inner">
-          <div className="value-inner">
-            <p className="sub">MY VALUE</p>
-            <h1 className="wow animated fadeInLeft">私が提供できる価値</h1>
-            <div className="txt">
-              <p>Web制作者としての技術力と、福祉業界で培った対人支援と課題解決の高い能力を兼ね備えているエンジニアです。</p>
-            </div>
-            <div className="value-list">
-              <div className="value">
-                <h3>13年の実務経験 × 体系的な再学習</h3>
-                <p>WordPressを軸に13年間、現場で手を動かし続けてきました。この経験を大切にしながら、職業訓練でフルスタック技術を基礎から学び直しています。実務で培った勘所と体系的な知識の両方を持つことが、私の技術力の土台です。</p>
-              </div>
-              <div className="value">
-                <h3>生成AIを実務に活用できる</h3>
-                <p>ChatGPT・Gemini・Claude・Cursorの有料版を契約し、用途に応じて使い分けながら日常的に業務へ組み込んでいます。試行錯誤を重ねて身につけたAIとの協働スキルは、開発効率の向上という形で入社後すぐに貢献できると考えています。</p>
-              </div>
-              <div className="value">
-                <h3>多分野の知識で設計の引き出しを増やす</h3>
-                <p>金融・法律・会計・マーケティング・心理学など、幅広い分野を学んできました。エンジニアリング単独では見落としがちな視点を補えるため、ビジネス要件の背景を早く理解し、仕様検討の場でも初期からお力になれます。</p>
-              </div>
-              <div className="value">
-                <h3>福祉 × IT という希少軸</h3>
-                <p>福祉施設での実務経験を持つエンジニアは、まだ多くありません。高齢者・障がい者・介護現場のリアルなニーズを肌で知っているからこそ、当事者に本当に届くプロダクトづくりに貢献できる。この掛け合わせが私ならではの強みです。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="credentials main-inner">
-          <div className="credentials-inner">
-            <p className="sub">Skills & Credentials</p>
-            <h1 className="wow animated fadeInLeft">幅広い資格と専門性</h1>
-            <div className="txt">
-              <p>IT・Webから金融・法律・福祉を含めた30以上の資格を保有。多種多様な専門性が顧客と自社の課題解決を支えます。</p>
-            </div>
-            <div className="credential-list">
-              <div className="credential-item">
-                <h2>IT国家資格</h2>
-                <ul>
-                  <li>ITパスポート</li>
-                  <li>基本情報技術者</li>
-                  <li>情報セキュリティマネジメント</li>
-                  <li>応用情報技術者</li>
-                  <li>情報セキュリティスペシャリスト</li>
-                </ul>
-              </div>
-              <div className="credential-item">
-                <h2>IT民間資格</h2>
-                <ul>
-                  <li>AWS AIF</li>
-                  <li>AWS CLF</li>
-                  <li>AWS SAA（受験予定）</li>
-                  <li>Java Gold SE17（受験予定）</li>
-                  <li>Salesforce認定Platformアドミニストレーター</li>
-                  <li>Salesforce認定Platformアプリケーションビルダー</li>
-                  <li>Salesforce認定Sales Cloudコンサルタント</li>
-                  <li>Salesforce認定Agentforce スペシャリスト</li>
-                  <li>G検定</li>
-                  <li>生成AIパスポート</li>
-                  <li>MOS Expert 認定</li>
-                </ul>
-              </div>
-              <div className="credential-item">
-                <h2>Web・マーケティング</h2>
-                <ul>
-                  <li>認定SEOコンサルタント</li>
-                  <li>SEO検定1級</li>
-                  <li>ウェブ解析士</li>
-                  <li>HTML5プロフェッショナル認定試験 レベル2</li>
-                  <li>Webクリエイター能力認定試験</li>
-                  <li>WEBライティング実務士</li>
-                </ul>
-              </div>
-              <div className="credential-item">
-                <h2>ビジネス（金融・法律）</h2>
-                <ul>
-                  <li>2級ファイナンシャルプランニング技能士</li>
-                  <li>AFP</li>
-                  <li>日商簿記2級</li>
-                  <li>ビジネス会計検定2級</li>
-                  <li>ビジネス実務法務検定2級</li>
-                  <li>年金アドバイザー3級</li>
-                </ul>
-              </div>
-              <div className="credential-item">
-                <h2>福祉・ヒューマン</h2>
-                <ul>
-                  <li>社会福祉士（受験予定）</li>
-                  <li>認定心理士（取得予定）</li>
-                  <li>社会福祉主事任用資格</li>
-                  <li>心理学検定2級</li>
-                  <li>メンタルヘルスマネジメント検定Ⅱ種</li>
-                  <li>カラーコーディネーター3級</li>
-                  <li>健康経営アドバイザー</li>
-                  <li>両立支援コーディネーター</li>
-                </ul>
-              </div>
-              <div className="credential-item appendix">
-                <p>
-                  ※放送大学 心理と教育コースで学ぶ大学生でもあります。
-                  <br />
-                  （2027年3月卒業見込み）
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="skills main-inner">
-          <div className="skills-inner">
-            <p className="sub">Learning Strategy</p>
-            <h1 className="wow animated fadeInLeft">技術の探索 × 技術の深化</h1>
-            <div className="txt">
-              <p>「両利きの経営」を学習戦略に応用。既存の強みを深めながら、新領域への挑戦を同時並行で進めてきました。</p>
-            </div>
-            <div className="skill-box">
-              <div className="skill-box-inner">
-                <div className="left wow animated fadeInLeft" data-wow-delay="0.5s">
-                  <h3>技術の探索</h3>
-                  <p>新しい技術や未経験の分野にも恐れず飛び込んで学ぶ。その積み重ねでこれからの現場で活かせる力を広げてきました。</p>
-                  <ul>
-                    <li>
-                      Java Gold SE17<span>（サーバーサイド言語）</span>
-                    </li>
-                    <li>
-                      AWS AIF / CLF / SAA<span>（Amazon Web Service）</span>
-                    </li>
-                    <li>
-                      React + TypeScript<span>（フロントエンドフレームワーク）</span>
-                    </li>
-                    <li>
-                      Laravel<span>（バックエンドフレームワーク）</span>
-                    </li>
-                    <li>
-                      生成AI活用・AIエージェント開発<span>（Chat GPT・Gemini・Claude・Cursor Pro）</span>
-                    </li>
-                    <li>
-                      社会福祉士<span>（ソーシャルワーク）</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="right wow animated fadeInRight" data-wow-delay="0.5s">
-                  <h3>技術の深化</h3>
-                  <p>13年の実務で培った経験を今も磨き続けています。現場で得たスキルを、より確かな技術力へと育ててきました。</p>
-                  <ul>
-                    <li>HTML・CSSモダンコーディング</li>
-                    <li>WordPress オリジナルテーマ開発</li>
-                    <li>SEOからLLMO・AIOへの転換</li>
-                    <li>コンテンツ・情報アーキテクチャの設計</li>
-                    <li>PHPベースの開発スキルの向上</li>
-                    <li>jQueryからVanilla JSへ移行</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="main-inner achivement">
-          <div className="achivement-inner">
-            <p className="sub">Achivement TIMELINE</p>
-            <h1 className="wow animated fadeInLeft">2026 → 2027 達成の軌跡</h1>
-            <div className="txt">
-              <p>
-                職業訓練をフル活用し、資格取得とポートフォリオ作成まで一気に駆け抜けました。GitHubで
-                <a href="https://github.com/corekaraweb/study-log" target="_blank">
-                  日々の学習記録
-                </a>
-                を書いています。
-              </p>
-            </div>
-            <div className="seasons">
-              <div className="season-list">
-                <div className="season">2026 4月</div>
-                <div className="items">
-                  <div className="item activity">職業訓練開始</div>
-                  <div className="item activity">Java学習開始</div>
-                  <div className="item licence">G検定 合格</div>
-                  <div className="item licence">Java Bronze 合格</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 5月</div>
-                <div className="items">
-                  <div className="item licence fail">Java Silver SE17 不合格</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 6月</div>
-                <div className="items">
-                  <div className="item activity">AWS学習開始</div>
-                  <div className="item licence">Java Silver SE17 合格</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 7月</div>
-                <div className="items">
-                  <div className="item activity">LLMO・AIO学習開始</div>
-                  <div className="item activity">ポートフォリオ（WordPress）作成開始</div>
-                  <div className="item licence">AWS AIF 合格</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 8月（予定）</div>
-                <div className="items">
-                  <div className="item activity">React学習開始</div>
-                  <div className="item activity">ポートフォリオ（WordPress）完成</div>
-                  <div className="item licence">AWS CLF 合格</div>
-                  <div className="item licence">Java Gold SE17 合格</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 9月（予定）</div>
-                <div className="items">
-                  <div className="item activity">Laravel学習開始</div>
-                  <div className="item activity">社会福祉士試験学習開始</div>
-                  <div className="item activity">ポートフォリオ（React+TypeScript）作成開始</div>
-                  <div className="item licence">AWS SAA 合格</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 10月（予定）</div>
-                <div className="items">
-                  <div className="item activity">Spring Boot学習開始</div>
-                  <div className="item activity">ポートフォリオ（React+TypeScript）完成</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 11月（予定）</div>
-                <div className="items">
-                  <div className="item activity">ポートフォリオ（Laravel＋React）作成開始</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2026 12月（予定）</div>
-                <div className="items">
-                  <div className="item activity">ポートフォリオ（Java＋Spring Boot）作成開始</div>
-                  <div className="item activity">ポートフォリオ（Laravel＋React）完成</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2027 1月（予定）</div>
-                <div className="items">
-                  <div className="item activity">ポートフォリオ（Java＋Spring Boot）完成</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2027 2月（予定）</div>
-                <div className="items">
-                  <div className="item activity">社会福祉士国家試験</div>
-                </div>
-              </div>
-              <div className="season-list">
-                <div className="season">2027 3月（予定）</div>
-                <div className="items">
-                  <div className="item licence">社会福祉士 合格</div>
-                  <div className="item licence">心理学検定1級 合格</div>
-                  <div className="item activity">職業訓練修了</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="portfolio main-inner">
           <div className="portfolio-inner">
             <p className="sub">PORTFOLIO WORKS</p>
             <h1 className="wow animated fadeInLeft">ポートフォリオ作品</h1>
             <div className="txt">
-              <p>実務経験と学び直しの成果を、4つの作品という形にしました。全てのプロダクトはGitHubにてソースコードを公開しております。</p>
+              <p>実務経験と学び直しの成果を、4つの作品という形にしました。全てのプロダクトはGitHubにてソースコードを公開しています。</p>
             </div>
             <div className="itemlist">
               <div className="itemlist-inner">
@@ -501,8 +237,8 @@ function App() {
                       <div className="right">
                         <h3>工夫したところ</h3>
                         <p>
-                          ReactとTypeScriptをキチンと使うのは初めてだったので、 まずは静的なHTMLとCSSでWebページを制作しました。技術書で学習しながら、このWebページのReact化も同時並行で実施。コンテンツの草案は、職業訓練のことで度々相談していたClaudeの力を借りました。ポートフォリオセクションのモックアップはWebページのスクリーンショットとPSDのひな型を準備して ChatGPT
-                          に作ってもらいました。インフラには、さくらのVPSを採用。Let's EncryptやNginxの導入、PHPを動作させる環境を構築。スムーズなファイル編集のために、viもキチンと使えるようになりました。GitHub Actionsを設定し、リポジトリへのPushと同時に、Webサーバーへのファイルアップロードも行われるようにしてあります。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
+                          静的HTMLで構造を固めてから段階的にReact化する進め方を取りました。技術書で学習しながら、このWebページのReact化も同時並行で実施。草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPS（Rocky Linux）にNginxを導入し、このReactサイトの静的配信と、サブドメインで動くSpring Boot（ShareCare）へのリバースプロキシを1台で担わせています。Let's
+                          EncryptによるSSL化、GitHub Actionsからの自動デプロイまで自分で構築しました。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
                         </p>
                       </div>
                     </div>
@@ -515,7 +251,7 @@ function App() {
                     </div>
                     <div className="txt">
                       <h2>WordPressオリジナルブログ『写真まみれ』</h2>
-                      <p>WordPressのオリジナルテーマで開発した、私的な写真ブログです。昔ながらのクラシックテーマによる構築です。以前から契約していたエックスサーバーの領域を使い、ドメインは新規で取得しました。レスポンシブ対応やJavaScriptでのちょっとした動きがアピールポイントです。</p>
+                      <p>WordPressのオリジナルテーマで開発した写真ブログです。テンプレート階層を自分で組み立てられるクラシックテーマをあえて選び、斜めに傾けたサムネイルの疑似スクロールや、タグ指定による検索など、UI演出とクエリ制御の両面で工夫しました。</p>
                       <div className="tags">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -561,11 +297,7 @@ function App() {
                             </tr>
                             <tr>
                               <th>インフラ</th>
-                              <td>
-                                エックスサーバー
-                                <br />
-                                （Linux / Apache / メモリ 1024GB / SSD 500GB）
-                              </td>
+                              <td>エックスサーバー（スタンダード）</td>
                             </tr>
                             <tr>
                               <th>開発ツール</th>
@@ -585,8 +317,8 @@ function App() {
                       <div className="right">
                         <h3>工夫したところ</h3>
                         <p>
-                          WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場のような気がします。Cursorによるアシストにも助けられました。
-                          ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直観的なタグ指定による検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。
+                          WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。
+                          ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。
                         </p>
                       </div>
                     </div>
@@ -750,13 +482,288 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="value main-inner">
+          <div className="value-inner">
+            <p className="sub">MY VALUE</p>
+            <h1 className="wow animated fadeInLeft">私が提供できる価値</h1>
+            <div className="txt">
+              <p>Web制作者としての技術力と、福祉業界で培った対人支援の経験を兼ね備えたエンジニアです。</p>
+            </div>
+            <div className="value-list">
+              <div className="value">
+                <h3>13年の実務経験 × 体系的な再学習</h3>
+                <p>WordPressを軸に13年間、現場で手を動かし続けてきました。この経験を大切にしながら、職業訓練でフルスタック技術を基礎から学び直しています。実務で培った勘所と体系的な知識の両方を持つことが、私の技術力の土台です。</p>
+              </div>
+              <div className="value">
+                <h3>生成AIを実務に活用できる</h3>
+                <p>ChatGPT・Gemini・Claude・Cursorの有料版を契約し、用途に応じて使い分けながら日常的に業務へ組み込んでいます。試行錯誤を重ねて身につけたAIとの協働スキルは、開発効率の向上という形で入社後すぐに貢献できると考えています。</p>
+              </div>
+              <div className="value">
+                <h3>多分野の知識で設計の引き出しを増やす</h3>
+                <p>金融・法律・会計・マーケティング・心理学など、幅広い分野を学んできました。エンジニアリング単独では見落としがちな視点を補えるため、ビジネス要件の背景を早く理解し、仕様検討の場でも初期からお力になれます。</p>
+              </div>
+              <div className="value">
+                <h3>福祉 × IT という希少軸</h3>
+                <p>福祉施設での実務経験を持つエンジニアは、まだ多くありません。高齢者・障がい者・介護現場のリアルなニーズを肌で知っているからこそ、当事者に本当に届くプロダクトづくりに貢献できる。この掛け合わせが私ならではの強みです。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="skills main-inner">
+          <div className="skills-inner">
+            <p className="sub">Learning Strategy</p>
+            <h1 className="wow animated fadeInLeft">技術の探索 × 技術の深化</h1>
+            <div className="txt">
+              <p>「両利きの経営」を学習戦略に応用。既存の強みを深めながら、新領域への挑戦を同時並行で進めてきました。</p>
+            </div>
+            <div className="skill-box">
+              <div className="skill-box-inner">
+                <div className="left wow animated fadeInLeft" data-wow-delay="0.5s">
+                  <h3>技術の探索</h3>
+                  <p>新しい技術や未経験の分野にも恐れず飛び込んで学ぶ。その積み重ねでこれからの現場で活かせる力を広げてきました。</p>
+                  <ul>
+                    <li>
+                      Java Gold SE17<span>（サーバーサイド言語）</span>
+                    </li>
+                    <li>
+                      AWS AIF / CLF / SAA<span>（Amazon Web Services）</span>
+                    </li>
+                    <li>
+                      React + TypeScript<span>（フロントエンドフレームワーク）</span>
+                    </li>
+                    <li>
+                      Laravel<span>（バックエンドフレームワーク）</span>
+                    </li>
+                    <li>
+                      Nginx / Apache / AWS EC2<span>（Webサーバー構築）</span>
+                    </li>
+                    <li>
+                      生成AI活用・AIエージェント活用<span>（ChatGPT・Gemini・Claude・Cursor Pro）</span>
+                    </li>
+                    <li>
+                      社会福祉士<span>（ソーシャルワーク）</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="right wow animated fadeInRight" data-wow-delay="0.5s">
+                  <h3>技術の深化</h3>
+                  <p>13年の実務で培った経験を今も磨き続けています。現場で得たスキルを、より確かな技術力へと育ててきました。</p>
+                  <ul>
+                    <li>
+                      HTML・CSS<span>（Grid・コンテナクエリ・Sass）</span>
+                    </li>
+                    <li>
+                      WordPress オリジナルテーマ開発<span>（テンプレート階層・カスタム投稿）</span>
+                    </li>
+                    <li>
+                      SEOからLLMO・AIOへ拡張<span>（AI検索時代の最適化）</span>
+                    </li>
+                    <li>
+                      コンテンツ・情報アーキテクチャ設計<span>（サイト構造・導線）</span>
+                    </li>
+                    <li>
+                      PHP<span>（WordPressからLaravelへ応用）</span>
+                    </li>
+                    <li>
+                      jQueryからVanilla JSへ<span>（ES2015+・DOM操作）</span>
+                    </li>
+                    <li>
+                      Webライティング<span>（SEO記事からAI時代の執筆へ）</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="credentials main-inner">
+          <div className="credentials-inner">
+            <p className="sub">Skills & Credentials</p>
+            <h1 className="wow animated fadeInLeft">幅広い資格と専門性</h1>
+            <div className="txt">
+              <p>IT・Webから金融・法律・福祉を含めた30以上の資格を保有。多種多様な専門性が顧客と自社の課題解決を支えます。</p>
+            </div>
+            <div className="credential-list">
+              <div className="credential-item">
+                <h2>IT国家資格</h2>
+                <ul>
+                  <li>情報セキュリティスペシャリスト</li>
+                  <li>応用情報技術者</li>
+                  <li>情報セキュリティマネジメント</li>
+                  <li>基本情報技術者</li>
+                  <li>ITパスポート</li>
+                </ul>
+              </div>
+              <div className="credential-item">
+                <h2>IT民間資格</h2>
+                <ul>
+                  <li>Java Gold SE17</li>
+                  <li>AWS SAA / AIF / CLF</li>
+                  <li>G検定</li>
+                  <li>Salesforce認定Platformアドミニストレーター</li>
+                  <li>Salesforce認定Platformアプリケーションビルダー</li>
+                  <li>Salesforce認定Sales Cloudコンサルタント</li>
+                  <li>Salesforce認定Agentforce スペシャリスト</li>
+                </ul>
+              </div>
+              <div className="credential-item">
+                <h2>Web・マーケティング</h2>
+                <ul>
+                  <li>認定SEOコンサルタント</li>
+                  <li>SEO検定1級</li>
+                  <li>ウェブ解析士</li>
+                  <li>HTML5プロフェッショナル認定試験 レベル2</li>
+                  <li>Webクリエイター能力認定試験</li>
+                  <li>ウェブライティング実務士</li>
+                </ul>
+              </div>
+              <div className="credential-item">
+                <h2>ビジネス（金融・法律）</h2>
+                <ul>
+                  <li>日商簿記2級</li>
+                  <li>ビジネス会計検定2級</li>
+                  <li>2級ファイナンシャルプランニング技能士</li>
+                  <li>AFP</li>
+                  <li>ビジネス実務法務検定2級</li>
+                  <li>年金アドバイザー3級</li>
+                </ul>
+              </div>
+              <div className="credential-item">
+                <h2>福祉・ヒューマン</h2>
+                <ul>
+                  <li>社会福祉士（受験予定）</li>
+                  <li>認定心理士（取得予定）</li>
+                  <li>社会福祉主事任用資格</li>
+                  <li>健康経営アドバイザー</li>
+                  <li>両立支援コーディネーター</li>
+                  <li>メンタルヘルスマネジメント検定Ⅱ種</li>
+                  <li>心理学検定2級</li>
+                  <li>カラーコーディネーター3級</li>
+                </ul>
+              </div>
+              <div className="credential-item appendix">
+                <p>
+                  ※放送大学 心理と教育コースで学ぶ大学生でもあります。
+                  <br />
+                  （2027年3月卒業見込み）
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="main-inner achivement">
+          <div className="achivement-inner">
+            <p className="sub">Achievement TIMELINE</p>
+            <h1 className="wow animated fadeInLeft">2026 → 2027 達成の軌跡</h1>
+            <div className="txt">
+              <p>
+                職業訓練をフル活用し、資格取得とポートフォリオ作成まで一気に駆け抜けました。GitHubで
+                <a href="https://github.com/corekaraweb/study-log" target="_blank">
+                  日々の学習記録
+                </a>
+                を書いています。
+              </p>
+            </div>
+            <div className="seasons">
+              <div className="season-list">
+                <div className="season">2026 4月</div>
+                <div className="items">
+                  <div className="item activity">職業訓練開始</div>
+                  <div className="item activity">Java学習開始</div>
+                  <div className="item licence">G検定 合格</div>
+                  <div className="item licence">Java Bronze 合格</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 5月</div>
+                <div className="items">
+                  <div className="item licence fail">Java Silver SE17 不合格</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 6月</div>
+                <div className="items">
+                  <div className="item activity">AWS学習開始</div>
+                  <div className="item licence">Java Silver SE17 合格</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 7月</div>
+                <div className="items">
+                  <div className="item activity">LLMO・AIO学習開始</div>
+                  <div className="item activity">ポートフォリオ（WordPress）作成開始</div>
+                  <div className="item licence">AWS AIF 合格</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 8月</div>
+                <div className="items">
+                  <div className="item activity">React学習開始</div>
+                  <div className="item activity">ポートフォリオ（WordPress）完成</div>
+                  <div className="item licence">AWS CLF 合格</div>
+                  <div className="item licence">Java Gold SE17 合格</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 9月</div>
+                <div className="items">
+                  <div className="item activity">Laravel学習開始</div>
+                  <div className="item activity">社会福祉士試験学習開始</div>
+                  <div className="item activity">ポートフォリオ（React+TypeScript）作成開始</div>
+                  <div className="item licence">AWS SAA 合格</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 10月</div>
+                <div className="items">
+                  <div className="item activity">Spring Boot学習開始</div>
+                  <div className="item activity">ポートフォリオ（React+TypeScript）完成</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 11月</div>
+                <div className="items">
+                  <div className="item activity">ポートフォリオ（Laravel＋React）作成開始</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2026 12月</div>
+                <div className="items">
+                  <div className="item activity">ポートフォリオ（Java＋Spring Boot）作成開始</div>
+                  <div className="item activity">ポートフォリオ（Laravel＋React）完成</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2027 1月</div>
+                <div className="items">
+                  <div className="item activity">ポートフォリオ（Java＋Spring Boot）完成</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2027 2月</div>
+                <div className="items">
+                  <div className="item activity">社会福祉士国家試験</div>
+                </div>
+              </div>
+              <div className="season-list">
+                <div className="season">2027 3月</div>
+                <div className="items">
+                  <div className="item licence">社会福祉士 合格</div>
+                  <div className="item licence">心理学検定1級 合格</div>
+                  <div className="item activity">職業訓練修了</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="ai main-inner">
           <div className="ai-inner">
             <p className="sub">AI APPROACH</p>
             <h1 className="wow animated fadeInLeft">生成AIとの向き合い方</h1>
             <div className="txt">
-              <p>AIエージェントの最新情報をキャッチアップしながら、各種モデルを使い分けてAI開発を実践しています。</p>
+              <p>AIエージェントの最新情報をキャッチアップしながら、各種モデルを使い分けてAI活用を実践ています。</p>
             </div>
             <div className="ailist">
               <div className="ailist-inner">
@@ -768,7 +775,7 @@ function App() {
                     </div>
                   </div>
                   <div className="contents">
-                    <p>Claude CodeやCodexの登場前から愛用しています。「AIの使えるVS Code」という感覚で導入しましたが、Cursorは本当に頼りになります。有料のPro版を使えば、各種モデルの最新版を切り替えながら活用可能。今年になってAIエージェントモードも使えるようになり、ますます熱い！</p>
+                    <p>Claude CodeやCodexの登場前から愛用しています。「AIの使えるVS Code」という感覚で導入しましたが、Cursorは本当に頼りになります。有料のPro版を使えば、各種モデルの最新版を切り替えながら活用可能。今年になってAIエージェントモードも使えるようになり、エージェントモードも実務で活用しています。</p>
                     <div className="tags">
                       <span className="tag">コード生成</span>
                       <span className="tag">コード分析</span>
@@ -779,7 +786,7 @@ function App() {
                 </div>
                 <div className="ai-item chatgpt">
                   <div className="head">
-                    <h2>Chat GPT</h2>
+                    <h2>ChatGPT</h2>
                     <div className="tags">
                       <span>有料契約</span>
                     </div>
@@ -859,6 +866,8 @@ function App() {
                   <br />
                   エンジニアを目指しています。 <br />
                   ぜひ、一緒に働く機会をいただけたら嬉しいです。
+                  <br />
+                  （2027年4月から就業可能です）
                 </p>
               </div>
               <div className="contact">
@@ -893,7 +902,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <p className="copy">© 2027 — Hideki Murakami（Welfare × IT Engineer）</p>
+              <p className="copy">© 2027 — 村上英輝 / Hideki Murakami（Welfare × IT Engineer）</p>
             </div>
           </div>
         </div>

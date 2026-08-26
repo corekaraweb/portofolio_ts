@@ -176,6 +176,7 @@ main .txt {
 }
 .main-inner.top .top-inner .fv p.sub {
   font-size: min(6vw, 34px);
+  font-size: 23px;
 }
 .main-inner.top .top-inner .fv h1 {
   font-size: max(7vw, 50px);
@@ -342,10 +343,10 @@ main .txt {
   margin-bottom: 10px;
   margin-right: 2px;
   margin-left: 2px;
-  color: #8fa3b1;
+  color: #fff;
   font-size: 13px;
   background-color: rgba(255, 255, 255, 0.08);
-  border-color: #8fa3b1;
+  border-color: #fff;
   border-width: 1px;
   padding: 3px 6px;
 }
@@ -580,6 +581,8 @@ main .txt {
 
 .main-inner.value {
   padding: 180px 40px 100px;
+  background-color: rgba(74, 66, 148, 0.3);
+  clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);
 }
 @media screen and (max-width: 1024px) {
   .main-inner.value {
@@ -694,6 +697,7 @@ main .txt {
   background-color: rgba(255, 255, 255, 0.06);
   border-color: #e2e2e2;
   border: 2px solid rgba(255, 255, 255, 0.1);
+  display: block;
 }
 
 .main-inner.skills {
@@ -800,8 +804,6 @@ main .txt {
 
 .main-inner.achivement {
   padding: 180px 40px 100px;
-  background-color: rgba(71, 46, 136, 0.3);
-  clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);
 }
 @media screen and (max-width: 1024px) {
   .main-inner.achivement {
@@ -834,7 +836,7 @@ main .txt {
   }
 }
 .main-inner.achivement .season-list .season {
-  min-width: 200px;
+  min-width: 120px;
   font-family: "Space Grotesk", sans-serif;
   font-size: 16px;
   color: #00c2a8;
@@ -997,10 +999,10 @@ main .txt {
   margin-bottom: 10px;
   margin-right: 2px;
   margin-left: 2px;
-  color: #8fa3b1;
+  color: #fff;
   font-size: 11px;
   background-color: rgba(255, 255, 255, 0.06);
-  border-color: #8fa3b1;
+  border-color: #fff;
   margin: 3px 3px 3px 0;
   border-width: 1px;
 }
