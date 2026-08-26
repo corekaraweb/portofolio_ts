@@ -613,8 +613,6 @@ main {
 }
 .main-inner.credentials {
   padding: $pcPadding;
-  background-color: rgba(74, 66, 148, 0.3);
-  clip-path: $clipPath;
   @media screen and (max-width: 1024px) {
     padding: $spPadding;
     clip-path: $spClipPath;
@@ -665,6 +663,8 @@ main {
 }
 
 .main-inner.skills {
+  background-color: rgba(29, 61, 66, 0.3);
+  clip-path: $clipPath;
   padding: $pcPadding;
   @media screen and (max-width: 1024px) {
     padding: $spPadding;

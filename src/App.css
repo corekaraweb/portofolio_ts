@@ -635,8 +635,6 @@ main .txt {
 
 .main-inner.credentials {
   padding: 180px 40px 100px;
-  background-color: rgba(74, 66, 148, 0.3);
-  clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);
 }
 @media screen and (max-width: 1024px) {
   .main-inner.credentials {
@@ -701,6 +699,8 @@ main .txt {
 }
 
 .main-inner.skills {
+  background-color: rgba(29, 61, 66, 0.3);
+  clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);
   padding: 180px 40px 100px;
 }
 @media screen and (max-width: 1024px) {

@@ -509,73 +509,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="skills main-inner">
-          <div className="skills-inner">
-            <p className="sub">Learning Strategy</p>
-            <h1 className="wow animated fadeInLeft">技術の探索 × 技術の深化</h1>
-            <div className="txt">
-              <p>「両利きの経営」を学習戦略に応用。既存の強みを深めながら、新領域への挑戦を同時並行で進めてきました。</p>
-            </div>
-            <div className="skill-box">
-              <div className="skill-box-inner">
-                <div className="left wow animated fadeInLeft" data-wow-delay="0.5s">
-                  <h3>技術の探索</h3>
-                  <p>新しい技術や未経験の分野にも恐れず飛び込んで学ぶ。その積み重ねでこれからの現場で活かせる力を広げてきました。</p>
-                  <ul>
-                    <li>
-                      Java Gold SE17<span>（サーバーサイド言語）</span>
-                    </li>
-                    <li>
-                      AWS AIF / CLF / SAA<span>（Amazon Web Services）</span>
-                    </li>
-                    <li>
-                      React + TypeScript<span>（フロントエンドフレームワーク）</span>
-                    </li>
-                    <li>
-                      Laravel<span>（バックエンドフレームワーク）</span>
-                    </li>
-                    <li>
-                      Nginx / Apache / AWS EC2<span>（Webサーバー構築）</span>
-                    </li>
-                    <li>
-                      生成AI活用・AIエージェント活用<span>（ChatGPT・Gemini・Claude・Cursor Pro）</span>
-                    </li>
-                    <li>
-                      社会福祉士<span>（ソーシャルワーク）</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="right wow animated fadeInRight" data-wow-delay="0.5s">
-                  <h3>技術の深化</h3>
-                  <p>13年の実務で培った経験を今も磨き続けています。現場で得たスキルを、より確かな技術力へと育ててきました。</p>
-                  <ul>
-                    <li>
-                      HTML・CSS<span>（Sass・グリッドレイアウト・レスポンシブ対応）</span>
-                    </li>
-                    <li>
-                      WordPress オリジナルテーマ開発<span>（ブロックエディタ対応）</span>
-                    </li>
-                    <li>
-                      SEOからLLMO・AIOへ拡張<span>（検索エンジンとAI回答への露出設計）</span>
-                    </li>
-                    <li>
-                      コンテンツ・情報アーキテクチャ設計<span>（サイト構造・導線）</span>
-                    </li>
-                    <li>
-                      モダンPHPコーディング<span>（保守しやすく安全なコード）</span>
-                    </li>
-                    <li>
-                      jQueryからVanilla JSへ<span>（ES2015+・DOM操作）</span>
-                    </li>
-                    <li>
-                      Webライティング<span>（構成設計・編集・校正）</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="credentials main-inner">
           <div className="credentials-inner">
             <p className="sub">Skills & Credentials</p>
@@ -651,7 +585,73 @@ function App() {
             </div>
           </div>
         </div>
-
+        <div className="skills main-inner">
+          <div className="skills-inner">
+            <p className="sub">Learning Strategy</p>
+            <h1 className="wow animated fadeInLeft">技術の探索 × 技術の深化</h1>
+            <div className="txt">
+              <p>「両利きの経営」を学習戦略に応用。既存の強みを深めながら、新領域への挑戦を同時並行で進めてきました。</p>
+            </div>
+            <div className="skill-box">
+              <div className="skill-box-inner">
+                <div className="left wow animated fadeInLeft" data-wow-delay="0.5s">
+                  <h3>技術の探索</h3>
+                  <p>新しい技術や未経験の分野にも恐れず飛び込んで学ぶ。その積み重ねでこれからの現場で活かせる力を広げてきました。</p>
+                  <ul>
+                    <li>
+                      Java Gold SE17<span>（サーバーサイド言語）</span>
+                    </li>
+                    <li>
+                      AWS AIF / CLF / SAA<span>（Amazon Web Services）</span>
+                    </li>
+                    <li>
+                      React + TypeScript<span>（フロントエンドフレームワーク）</span>
+                    </li>
+                    <li>
+                      Laravel<span>（バックエンドフレームワーク）</span>
+                    </li>
+                    <li>
+                      Nginx / Apache / AWS EC2<span>（Webサーバー構築）</span>
+                    </li>
+                    <li>
+                      生成AI活用・AIエージェント活用<span>（ChatGPT・Gemini・Claude・Cursor Pro）</span>
+                    </li>
+                    <li>
+                      社会福祉士<span>（ソーシャルワーク）</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="right wow animated fadeInRight" data-wow-delay="0.5s">
+                  <h3>技術の深化</h3>
+                  <p>13年の実務で培った経験を今も磨き続けています。現場で得たスキルを、より確かな技術力へと育ててきました。</p>
+                  <ul>
+                    <li>
+                      HTML・CSS<span>（Sass・グリッドレイアウト・レスポンシブ対応）</span>
+                    </li>
+                    <li>
+                      WordPress オリジナルテーマ開発<span>（ブロックエディタ対応）</span>
+                    </li>
+                    <li>
+                      SEOからLLMO・AIOへ拡張<span>（検索エンジンとAI回答への露出設計）</span>
+                    </li>
+                    <li>
+                      コンテンツ・情報アーキテクチャ設計<span>（サイト構造・導線）</span>
+                    </li>
+                    <li>
+                      モダンPHPコーディング<span>（保守しやすく安全なコード）</span>
+                    </li>
+                    <li>
+                      jQueryからVanilla JSへ<span>（ES2015+・DOM操作）</span>
+                    </li>
+                    <li>
+                      Webライティング<span>（構成設計・編集・校正）</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="main-inner achivement">
           <div className="achivement-inner">
             <p className="sub">Achievement TIMELINE</p>
@@ -763,7 +763,7 @@ function App() {
             <p className="sub">AI APPROACH</p>
             <h1 className="wow animated fadeInLeft">生成AIとの向き合い方</h1>
             <div className="txt">
-              <p>AIエージェントの最新情報をキャッチアップしながら、各種モデルを使い分けてAI活用を実践ています。</p>
+              <p>AIエージェントの最新情報をキャッチアップしながら、各種モデルを使い分けてAI活用を実践しています。</p>
             </div>
             <div className="ailist">
               <div className="ailist-inner">
