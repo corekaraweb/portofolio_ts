@@ -1051,8 +1051,18 @@ main .txt {
   height: 40px;
 }
 .main-inner.ai .ai-inner .appendix {
-  margin: 25px;
+  margin: 40px 50px 0;
   font-size: 16px;
+  background-color: rgba(187, 180, 253, 0.15);
+  border: 1px solid rgba(143, 143, 255, 0.3);
+  padding: 30px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.ai .ai-inner .appendix {
+    margin: 20px 0px;
+    padding: 15px;
+  }
 }
 .main-inner.ai .ai-inner .appendix strong {
   font-weight: bold;
@@ -1061,6 +1071,46 @@ main .txt {
   color: #5898eb;
   text-decoration: underline;
   font-size: 20px;
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 35px;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.ai .ai-inner .appendix .appendix-inner {
+    display: block;
+  }
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .img {
+  width: 450px;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.ai .ai-inner .appendix .appendix-inner .img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .img img {
+  max-width: 100%;
+  height: auto;
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .txt {
+  flex: 1;
+  margin: 0;
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .txt .title {
+  font-size: 16px;
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .txt .title a {
+  margin: 10px 0;
+  display: inline-block;
+  font-size: 32px;
+  text-decoration: none;
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .txt p {
+  font-size: 15px;
 }
 
 .main-inner.thanks {

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 're
 import './App.css';
 import mockupPhotomamire from './assets/mockup_photomamire.png';
 import mockupPortfolio from './assets/mockup_portfolio.png';
+import ojisanai_eyecatch from './assets/ojisanai_eyecatch.jpg';
 import './reset.css';
 
 type MailtoUiApp = {
@@ -89,15 +90,15 @@ function App() {
               </div>
               <div className="sc box wow animated fadeInUp" data-wow-delay="1.7s">
                 <div className="snum">
-                  <span className="acb">30+</span>
+                  <span className="acb">7年+</span>
                 </div>
-                <div className="slbl">保有資格・認定数（IT・ビジネス・法律・金融 など）</div>
+                <div className="slbl">障害福祉の現場（3事業所）でWeb制作・職業指導員に従事</div>
               </div>
               <div className="sc box wow animated fadeInUp" data-wow-delay="2.3s">
                 <div className="snum">
-                  <span className="acc">7年+</span>
+                  <span className="acc">30+</span>
                 </div>
-                <div className="slbl">障害福祉の現場（3事業所）でWeb制作・職業指導員に従事</div>
+                <div className="slbl">保有資格・認定数（IT・ビジネス・法律・金融 など）</div>
               </div>
             </div>
           </div>
@@ -116,7 +117,7 @@ function App() {
                   <div className="year">～2026年</div>
                   <div className="contents">
                     <h2>WordPress × SEO × 障害福祉</h2>
-                    <p>オリジナルテーマ開発・SEO施策・コンテンツ作成を13年間経験。ユーザー視点のWeb構築とプロジェクトマネジメントを現場で習得しました。うち約6年は障害福祉の事業所に所属し、WordPressテーマ開発やWebライティングを担当しました。その後、就労支援施設にてWeb制作の職業指導員となり、利用者・スタッフの双方と日々接する中で、福祉の現場に本当に必要なものが何かを考え続けてきました。</p>
+                    <p>オリジナルテーマ開発・SEO施策・コンテンツ作成を13年間経験。ユーザー視点のWeb構築とプロジェクトマネジメントを現場で習得しました。うち約7年は障害福祉の事業所に所属し、WordPressテーマ開発やWebライティングを担当しました。その後、就労支援施設にてWeb制作の職業指導員となり、利用者・スタッフの双方と日々接する中で、福祉の現場に本当に必要なものが何かを考え続けてきました。</p>
                     <div className="badgelist">
                       <div className="badge">WordPress</div>
                       <div className="badge">PHP</div>
@@ -534,6 +535,7 @@ function App() {
                   <li>Java Gold SE17</li>
                   <li>AWS SAA / AIF / CLF</li>
                   <li>G検定</li>
+                  <li>生成AIパスポート</li>
                   <li>Salesforce認定Platformアドミニストレーター</li>
                   <li>Salesforce認定Platformアプリケーションビルダー</li>
                   <li>Salesforce認定Sales Cloudコンサルタント</li>
@@ -843,11 +845,23 @@ function App() {
             </div>
             <div className="appendix">
               <div className="appendix-inner">
-                ※「<strong>キラキラしていないAI活用術</strong>」を解説するメディア『
-                <a href="https://ojisan-ai.jp" target="_blank">
-                  おじさんAI
-                </a>
-                』を個人で運営しています。メディア構築・リサーチ・構成案作成・記事執筆・SEO・LLMO・AIO・各種メンテナンスなど、すべて自分で行っています。
+                <div className="img">
+                  <a href="https://ojisan-ai.jp" target="_blank">
+                    <img src={ojisanai_eyecatch} alt="" />
+                  </a>
+                </div>
+                <div className="txt">
+                  <div className="txt-inner">
+                    <strong>～キラキラしていないAI活用術～</strong>
+                    <h3 className="title">
+                      <a href="https://ojisan-ai.jp" target="_blank">
+                        『おじさんAI』
+                      </a>{' '}
+                      を運営しています。
+                    </h3>
+                    <p>AIが得意じゃない人のための情報発信サイトです。メディア構築・リサーチ・構成案作成・記事執筆・SEO・LLMO・AIO・各種メンテナンスなど、すべて自分で行っています。</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
