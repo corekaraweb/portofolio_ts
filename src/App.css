@@ -115,7 +115,7 @@ p.sub {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #00c2a8;
   font-size: min(3vw, 18px);
@@ -197,6 +197,10 @@ main .txt {
 .main-inner.top .top-inner .fv .txt p {
   font-size: 18px;
   line-height: 1.7;
+}
+.main-inner.top .top-inner .fv .txt p .sub {
+  color: rgb(167, 167, 167);
+  font-size: 16px;
 }
 .main-inner.top .top-inner .appeal {
   width: 40%;
@@ -341,12 +345,12 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 3px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
-  color: #fff;
-  font-size: 13px;
+  color: #dadada;
+  font-size: 14px;
   background-color: rgba(255, 255, 255, 0.08);
-  border-color: #fff;
+  border-color: #dadada;
   border-width: 1px;
   padding: 3px 6px;
 }
@@ -532,7 +536,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #f2a654;
   font-size: min(3vw, 18px);
@@ -553,7 +557,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #00c2a8;
   font-size: min(3vw, 18px);
@@ -688,7 +692,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 4px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #e2e2e2;
   font-size: 14px;
@@ -858,7 +862,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #00c2a8;
   font-size: 16px;
@@ -878,7 +882,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #f2a654;
   font-size: 16px;
@@ -897,7 +901,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 9999px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: rgb(236, 6, 6);
   font-size: 16px;
@@ -968,7 +972,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 8px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #00c2a8;
   font-size: 16px;
@@ -997,7 +1001,7 @@ main .txt {
   padding: 4px 12px 4px 12px;
   border-radius: 4px;
   margin-bottom: 10px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-left: 2px;
   color: #fff;
   font-size: 11px;
@@ -1095,6 +1099,10 @@ main .txt {
 .main-inner.ai .ai-inner .appendix .appendix-inner .img img {
   max-width: 100%;
   height: auto;
+  transition: 0.4s;
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .img img:hover {
+  opacity: 0.7;
 }
 .main-inner.ai .ai-inner .appendix .appendix-inner .txt {
   flex: 1;
@@ -1108,6 +1116,9 @@ main .txt {
   display: inline-block;
   font-size: 32px;
   text-decoration: none;
+}
+.main-inner.ai .ai-inner .appendix .appendix-inner .txt .title a:hover {
+  text-decoration: underline;
 }
 .main-inner.ai .ai-inner .appendix .appendix-inner .txt p {
   font-size: 15px;

@@ -78,7 +78,11 @@ function App() {
                 <div className="badge">ITシステム科 職業訓練</div>
               </div>
               <div className="txt">
-                <p>福祉の現場を知るエンジニアとして、 テクノロジーで社会課題を解決することを目指しています。 Java + AWS + Laravel + React + TypeScript を習得。</p>
+                <p>
+                  福祉の現場を知るエンジニアとして、 テクノロジーで社会課題を解決することを目指しています。 Java + AWS + Laravel + React + TypeScript を習得。
+                  <br />
+                  <span className="sub">※ 本サイトは2027年3月時点の完成形を想定して制作しています（2026年8月現在、制作中）</span>
+                </p>
               </div>
             </div>
             <div className="appeal">
@@ -117,7 +121,7 @@ function App() {
                   <div className="year">～2026年</div>
                   <div className="contents">
                     <h2>WordPress × SEO × 障害福祉</h2>
-                    <p>オリジナルテーマ開発・SEO施策・コンテンツ作成を13年間経験。ユーザー視点のWeb構築とプロジェクトマネジメントを現場で習得しました。うち約7年は障害福祉の事業所に所属し、WordPressテーマ開発やWebライティングを担当しました。その後、就労支援施設にてWeb制作の職業指導員となり、利用者・スタッフの双方と日々接する中で、福祉の現場に本当に必要なものが何かを考え続けてきました。</p>
+                    <p>オリジナルテーマ開発・SEO施策・コンテンツ作成を13年間経験。ユーザー視点のWeb構築とプロジェクトマネジメントを現場で習得しました。うち約6年は障害福祉の事業所に所属し、WordPressテーマ開発やWebライティングを担当しました。その後、就労支援施設にてWeb制作の職業指導員となり、利用者・スタッフの双方と日々接する中で、福祉の現場に本当に必要なものが何かを考え続けてきました。</p>
                     <div className="badgelist">
                       <div className="badge">WordPress</div>
                       <div className="badge">PHP</div>
@@ -238,8 +242,8 @@ function App() {
                       <div className="right">
                         <h3>工夫したところ</h3>
                         <p>
-                          開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、段階的にReact化する進め方を取りました。技術書で学習しながら、このWebページのReact化も同時並行で実施。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux 8を導入しました。その中で、Let's
-                          EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、サブドメインで動くSpring Boot（ShareCare）へのリバースプロキシを1台で担わせています。GitHub Actionsを使った自動デプロイにも対応しています。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
+                          開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、技術書で学習しながら段階的にReact化する進め方を取りました。TypeScriptによる静的な型付けや、コンポーネントの分割を意識して設計しました。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux
+                          8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、サブドメインで動くSpring Boot（ShareCare）へのリバースプロキシを1台で担わせています。GitHub Actionsを使った自動デプロイにも対応しています。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
                         </p>
                       </div>
                     </div>
@@ -703,8 +707,8 @@ function App() {
                 <div className="items">
                   <div className="item activity">React学習開始</div>
                   <div className="item activity">ポートフォリオ（WordPress）完成</div>
+                  <div className="item activity">ポートフォリオ（React+TypeScript）作成開始</div>
                   <div className="item licence">AWS CLF 合格</div>
-                  <div className="item licence">Java Gold SE17 合格</div>
                 </div>
               </div>
               <div className="season-list">
@@ -712,8 +716,7 @@ function App() {
                 <div className="items">
                   <div className="item activity">Laravel学習開始</div>
                   <div className="item activity">社会福祉士試験学習開始</div>
-                  <div className="item activity">ポートフォリオ（React+TypeScript）作成開始</div>
-                  <div className="item licence">AWS SAA 合格</div>
+                  <div className="item licence">Java Gold SE17 合格</div>
                 </div>
               </div>
               <div className="season-list">
@@ -721,6 +724,7 @@ function App() {
                 <div className="items">
                   <div className="item activity">Spring Boot学習開始</div>
                   <div className="item activity">ポートフォリオ（React+TypeScript）完成</div>
+                  <div className="item licence">AWS SAA 合格</div>
                 </div>
               </div>
               <div className="season-list">
