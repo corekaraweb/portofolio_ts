@@ -117,7 +117,7 @@ function App() {
             </div>
             <div className="timeline">
               <div className="timeline-inner">
-                <div className="before2026 timeline-block">
+                <div className="before2026 timeline-block wow animated fadeInUp">
                   <div className="year">～2026年</div>
                   <div className="contents">
                     <h2>WordPress × SEO × 障害福祉</h2>
@@ -131,7 +131,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="after2026 timeline-block">
+                <div className="after2026 timeline-block wow animated fadeInUp">
                   <div className="year">2026年～2027年</div>
                   <div className="contents">
                     <h2>ITシステム科 職業訓練</h2>
@@ -495,19 +495,19 @@ function App() {
               <p>Web制作者としての技術力と、福祉業界で培った対人支援の経験を兼ね備えたエンジニアです。</p>
             </div>
             <div className="value-list">
-              <div className="value">
+              <div className="value wow animated slideInUp">
                 <h3>13年の実務経験 × 体系的な再学習</h3>
                 <p>WordPressを軸に13年間、現場で手を動かし続けてきました。この経験を大切にしながら、職業訓練でフルスタック技術を基礎から学び直しています。実務で培った勘所と体系的な知識の両方を持つことが、私の技術力の土台です。</p>
               </div>
-              <div className="value">
+              <div className="value wow animated slideInUp">
                 <h3>生成AIを実務に活用できる</h3>
                 <p>ChatGPT・Gemini・Claude・Cursorの有料版を契約し、用途に応じて使い分けながら日常的に業務へ組み込んでいます。試行錯誤を重ねて身につけたAIとの協働スキルは、開発効率の向上という形で入社後すぐに貢献できると考えています。</p>
               </div>
-              <div className="value">
+              <div className="value wow animated slideInUp">
                 <h3>多分野の知識で設計の引き出しを増やす</h3>
                 <p>金融・法律・会計・マーケティング・心理学など、幅広い分野を学んできました。エンジニアリング単独では見落としがちな視点を補えるため、ビジネス要件の背景を早く理解し、仕様検討の場でも初期からお力になれます。</p>
               </div>
-              <div className="value">
+              <div className="value wow animated slideInUp">
                 <h3>福祉 × IT という希少軸</h3>
                 <p>福祉施設での実務経験を持つエンジニアは、まだ多くありません。高齢者・障がい者・介護現場のリアルなニーズを肌で知っているからこそ、当事者に本当に届くプロダクトづくりに貢献できる。この掛け合わせが私ならではの強みです。</p>
               </div>
@@ -523,7 +523,7 @@ function App() {
               <p>IT・Webから金融・法律・福祉を含めた30以上の資格を保有。多種多様な専門性が顧客と自社の課題解決を支えます。</p>
             </div>
             <div className="credential-list">
-              <div className="credential-item">
+              <div className="credential-item wow animated slideInUp">
                 <h2>IT国家資格</h2>
                 <ul>
                   <li>情報セキュリティスペシャリスト</li>
@@ -533,7 +533,7 @@ function App() {
                   <li>ITパスポート</li>
                 </ul>
               </div>
-              <div className="credential-item">
+              <div className="credential-item wow animated slideInUp">
                 <h2>IT民間資格</h2>
                 <ul>
                   <li>Java Gold SE17</li>
@@ -546,7 +546,7 @@ function App() {
                   <li>Salesforce認定Agentforce スペシャリスト</li>
                 </ul>
               </div>
-              <div className="credential-item">
+              <div className="credential-item wow animated slideInUp">
                 <h2>Web・マーケティング</h2>
                 <ul>
                   <li>認定SEOコンサルタント</li>
@@ -557,7 +557,7 @@ function App() {
                   <li>ウェブライティング実務士</li>
                 </ul>
               </div>
-              <div className="credential-item">
+              <div className="credential-item wow animated slideInUp">
                 <h2>ビジネス（金融・法律）</h2>
                 <ul>
                   <li>日商簿記2級</li>
@@ -568,7 +568,7 @@ function App() {
                   <li>年金アドバイザー3級</li>
                 </ul>
               </div>
-              <div className="credential-item">
+              <div className="credential-item wow animated slideInUp">
                 <h2>福祉・ヒューマン</h2>
                 <ul>
                   <li>社会福祉士（受験予定）</li>
@@ -581,7 +581,7 @@ function App() {
                   <li>カラーコーディネーター3級</li>
                 </ul>
               </div>
-              <div className="credential-item appendix">
+              <div className="credential-item appendix wow animated slideInUp">
                 <p>
                   ※放送大学 心理と教育コースで学ぶ大学生でもあります。
                   <br />
@@ -773,7 +773,7 @@ function App() {
             </div>
             <div className="ailist">
               <div className="ailist-inner">
-                <div className="ai-item cursor">
+                <div className="ai-item cursor wow animated slideInUp">
                   <div className="head">
                     <h2>Cursor</h2>
                     <div className="tags">
@@ -790,7 +790,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="ai-item chatgpt">
+                <div className="ai-item chatgpt wow animated slideInUp">
                   <div className="head">
                     <h2>ChatGPT</h2>
                     <div className="tags">
@@ -808,7 +808,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="ai-item claude">
+                <div className="ai-item claude wow animated slideInUp">
                   <div className="head">
                     <h2>Claude</h2>
                     <div className="tags">
@@ -826,7 +826,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="ai-item gemini">
+                <div className="ai-item gemini wow animated slideInUp">
                   <div className="head">
                     <h2>Gemini</h2>
                     <div className="tags">
@@ -847,7 +847,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="appendix">
+            <div className="appendix wow animated slideInUp">
               <div className="appendix-inner">
                 <div className="img">
                   <a href="https://ojisan-ai.jp" target="_blank">
