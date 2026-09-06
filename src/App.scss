@@ -439,8 +439,14 @@ main {
               margin: 30px auto;
               display: flex;
               justify-content: space-between;
+              @media screen and (max-width: 1024px) {
+                display: block;
+              }
               .left {
                 width: 50%;
+                @media screen and (max-width: 1024px) {
+                  width: 100%;
+                }
               }
               .right {
                 width: 50%;
@@ -448,6 +454,10 @@ main {
                 font-size: $subFontSize;
                 line-height: 2;
                 text-align: justify;
+                @media screen and (max-width: 1024px) {
+                  width: 100%;
+                  padding-left: 0;
+                }
                 h3 {
                   color: $mainColor;
                   font-weight: bold;

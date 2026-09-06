@@ -429,8 +429,18 @@ main .txt {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 1024px) {
+  .main-inner.portfolio .portfolio-inner .itemlist .item .detail .detail-block .detail-block-inner {
+    display: block;
+  }
+}
 .main-inner.portfolio .portfolio-inner .itemlist .item .detail .detail-block .detail-block-inner .left {
   width: 50%;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.portfolio .portfolio-inner .itemlist .item .detail .detail-block .detail-block-inner .left {
+    width: 100%;
+  }
 }
 .main-inner.portfolio .portfolio-inner .itemlist .item .detail .detail-block .detail-block-inner .right {
   width: 50%;
@@ -438,6 +448,12 @@ main .txt {
   font-size: 16px;
   line-height: 2;
   text-align: justify;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.portfolio .portfolio-inner .itemlist .item .detail .detail-block .detail-block-inner .right {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 .main-inner.portfolio .portfolio-inner .itemlist .item .detail .detail-block .detail-block-inner .right h3 {
   color: #00c2a8;

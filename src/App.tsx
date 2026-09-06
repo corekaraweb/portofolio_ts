@@ -162,7 +162,7 @@ function App() {
             <p className="sub">PORTFOLIO WORKS</p>
             <h1 className="wow animated fadeInLeft">ポートフォリオ作品</h1>
             <div className="txt">
-              <p>実務経験と学び直しの成果を、4つの作品という形にしました。全てのプロダクトはGitHubにてソースコードを公開しています。</p>
+              <p>実務経験と学び直しの成果を、5つの作品という形にしました。全てのプロダクトはGitHubにてソースコードを公開しています。</p>
             </div>
             <div className="itemlist">
               <div className="itemlist-inner">
@@ -206,7 +206,7 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>React・TypeScript・HTML5・CSS3・Sass</td>
+                              <td>HTML5・CSS3・Sass・React・TypeScript</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
@@ -369,7 +369,7 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>React・TypeScript・HTML5・CSS3・Sass</td>
+                              <td>HTML5・CSS3・Sass・React・TypeScript</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
@@ -443,7 +443,7 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>HTML5・CSS3・Sass・JavaScript・Sass</td>
+                              <td>HTML5・CSS3・Sass・JavaScript</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
@@ -481,6 +481,85 @@ function App() {
                         <p>現在開発中！</p>
                       </div>
                     </div>
+                  </DetailAccordion>
+                </div>
+
+                <div className="item wow animated fadeInUp">
+                  <div className="contents">
+                    <div className="img">
+                      <img src="https://placehold.jp/1800x1200.png" alt="" />
+                    </div>
+                    <div className="txt">
+                      <h2>【番外編】AIエージェント開発『Oreflix』</h2>
+                      <p>YouTubeの複数のマイリストを同時に表示してサイト上で動画を閲覧できるNetflixライクな動画閲覧サイトです。</p>
+                      <div className="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>GitHub</span>
+                        <span>AIエージェント開発</span>
+                        <span>さくらのVPS</span>
+                      </div>
+                      <div className="btn-area">
+                        <div className="github btn">
+                          <a href="#">GitHubを見る</a>
+                        </div>
+                        <div className="viewsite btn">
+                          <a href="https://oreflix.hideki-murakami.pro/" target="_blank">
+                            サイトを見る
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <DetailAccordion>
+                    <div className="detail-block-inner">
+                      <div className="left">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <th>フロントエンド</th>
+                              <td>HTML5・CSS3・Sass</td>
+                            </tr>
+                            <tr>
+                              <th>バックエンド</th>
+                              <td>PHP8.5.9</td>
+                            </tr>
+                            <tr>
+                              <th>データベース</th>
+                              <td>未使用</td>
+                            </tr>
+                            <tr>
+                              <th>インフラ</th>
+                              <td>
+                                さくらのVPS
+                                <br />
+                                （Rocky Linux 8 / Nginx / メモリ 1GB / SSD 100GB）
+                              </td>
+                            </tr>
+                            <tr>
+                              <th>開発ツール</th>
+                              <td>Cursor Pro・Git・GitHub</td>
+                            </tr>
+                            <tr>
+                              <th>生成AI活用</th>
+                              <td>Gemini 3.5 Flash・Claude Fable5・ChatGPT 5.6-Sol</td>
+                            </tr>
+                            <tr>
+                              <th>制作期間</th>
+                              <td>X週間</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div className="right">
+                        <h3>工夫したところ</h3>
+                        <p>現在開発中！</p>
+                      </div>
+                    </div>
+                    <div className="assets"></div>
                   </DetailAccordion>
                 </div>
               </div>
