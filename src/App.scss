@@ -816,13 +816,13 @@ main {
         font-size: $subSmallFontSize;
       }
       .item {
-        @include badge(9999px, $badgeFontSize, $topBadgeBg, $mainColor);
+        @include badge(5px, $badgeFontSize, $topBadgeBg, $mainColor);
         @media screen and (max-width: 1024px) {
           margin-left: 0;
         }
 
         &.activity {
-          @include badge(9999px, $badgeFontSize, $subBadgeBG, $subColor);
+          @include badge(5px, $badgeFontSize, $subBadgeBG, $subColor);
         }
         &.licence {
           &::before {
@@ -830,7 +830,7 @@ main {
             content: '✓';
           }
           &.fail {
-            @include badge(9999px, $badgeFontSize, rgba(238, 36, 9, 0.12), rgba(236, 6, 6, 1));
+            @include badge(5px, $badgeFontSize, rgba(238, 36, 9, 0.12), rgba(236, 6, 6, 1));
             &::before {
               content: '×';
               display: inline-block;
@@ -884,7 +884,7 @@ main {
               color: #f0f4f8;
             }
             .tags span {
-              @include badge(8px, $subFontSize, rgba(26, 198, 130, 0.15), $mainColor);
+              @include badge(5px, $subFontSize, rgba(26, 198, 130, 0.15), $mainColor);
               padding: 2px 8px;
               margin-bottom: 0;
             }
@@ -900,7 +900,7 @@ main {
               flex-wrap: wrap;
               gap: 2px;
               .tag {
-                @include badge(4px, 11px, rgba(255, 255, 255, 0.06), #fff);
+                @include badge(7px, 11px, rgba(255, 255, 255, 0.06), #fff);
                 margin: 3px 3px 3px 0;
                 border-width: 1px;
               }

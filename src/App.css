@@ -876,7 +876,7 @@ main .txt {
   border-width: 2px;
   border-style: solid;
   padding: 4px 12px 4px 12px;
-  border-radius: 9999px;
+  border-radius: 5px;
   margin-bottom: 10px;
   margin-right: 5px;
   margin-left: 2px;
@@ -896,7 +896,7 @@ main .txt {
   border-width: 2px;
   border-style: solid;
   padding: 4px 12px 4px 12px;
-  border-radius: 9999px;
+  border-radius: 5px;
   margin-bottom: 10px;
   margin-right: 5px;
   margin-left: 2px;
@@ -915,7 +915,7 @@ main .txt {
   border-width: 2px;
   border-style: solid;
   padding: 4px 12px 4px 12px;
-  border-radius: 9999px;
+  border-radius: 5px;
   margin-bottom: 10px;
   margin-right: 5px;
   margin-left: 2px;
@@ -986,7 +986,7 @@ main .txt {
   border-width: 2px;
   border-style: solid;
   padding: 4px 12px 4px 12px;
-  border-radius: 8px;
+  border-radius: 5px;
   margin-bottom: 10px;
   margin-right: 5px;
   margin-left: 2px;
@@ -1015,7 +1015,7 @@ main .txt {
   border-width: 2px;
   border-style: solid;
   padding: 4px 12px 4px 12px;
-  border-radius: 4px;
+  border-radius: 7px;
   margin-bottom: 10px;
   margin-right: 5px;
   margin-left: 2px;

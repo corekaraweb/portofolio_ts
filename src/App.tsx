@@ -369,7 +369,7 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>HTML5・CSS3・Sass・React・TypeScript</td>
+                              <td>HTML5・CSS3・Sass・JavaScript</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
@@ -381,7 +381,7 @@ function App() {
                             </tr>
                             <tr>
                               <th>インフラ</th>
-                              <td>AWS（Amazon Linux 2023 / Apache）</td>
+                              <td>AWS（AWS EC2 / Amazon Linux 2023 / Apache）</td>
                             </tr>
                             <tr>
                               <th>開発ツール</th>
@@ -521,7 +521,7 @@ function App() {
                           <tbody>
                             <tr>
                               <th>フロントエンド</th>
-                              <td>HTML5・CSS3・Sass</td>
+                              <td>HTML5・CSS3・Sass・JavaScript</td>
                             </tr>
                             <tr>
                               <th>バックエンド</th>
@@ -529,7 +529,7 @@ function App() {
                             </tr>
                             <tr>
                               <th>データベース</th>
-                              <td>未使用</td>
+                              <td>MariaDB</td>
                             </tr>
                             <tr>
                               <th>インフラ</th>
