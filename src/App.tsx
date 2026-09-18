@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
-import './App.css';
-import mockupPhotomamire from './assets/mockup_photomamire.png';
-import mockupPortfolio from './assets/mockup_portfolio.png';
-import ojisanai_eyecatch from './assets/ojisanai_eyecatch.jpg';
-import './reset.css';
+import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from "react";
+import "./App.css";
+import mockupPhotomamire from "./assets/mockup_photomamire.png";
+import mockupPortfolio from "./assets/mockup_portfolio.png";
+import ojisanai_eyecatch from "./assets/ojisanai_eyecatch.jpg";
+import "./reset.css";
 
 type MailtoUiApp = {
   listenForClickOnLink?: () => void;
@@ -18,7 +18,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
     if (!detailBlock) {
       return;
     }
-    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : '0';
+    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : "0";
   };
 
   const toggleOpen = () => {
@@ -38,7 +38,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
       <p className="btn" onClick={toggleOpen}>
         もっと詳しく<span className="arrow">↓</span>
       </p>
-      <div ref={blockRef} className={`detail-block${isOpen ? ' is-open' : ''}`}>
+      <div ref={blockRef} className={`detail-block${isOpen ? " is-open" : ""}`}>
         {children}
         <a className="close" href="#" onClick={handleClose}>
           閉じる
@@ -81,7 +81,7 @@ function App() {
                 <p>
                   福祉の現場を知るエンジニアとして、 テクノロジーで社会課題を解決することを目指しています。 Java + AWS + Laravel + React + TypeScript を習得。
                   <br />
-                  <span className="sub">※ 本サイトは2027年3月時点の完成形を想定して制作しています（2026年8月現在、制作中）</span>
+                  <span className="sub">※ 本サイトは2027年3月時点の完成形を想定して制作しています（2026年10月現在、制作中）</span>
                 </p>
               </div>
             </div>
@@ -135,7 +135,7 @@ function App() {
                   <div className="year">2026年～2027年</div>
                   <div className="contents">
                     <h2>ITシステム科 職業訓練</h2>
-                    <p>Java・AWS・Laravel・React・TypeScript を体系的に学習。Java Gold SE17・AWS 3冠を取得し、バックエンドとクラウドの基礎を確立しました。学んだ技術は座学で終わらせず、福祉の現場で感じた課題を題材にした社内向けWebアプリや備品管理システムなど、4つの作品として実装まで形にしました。</p>
+                    <p>Java・AWS・Laravel・React・TypeScript を体系的に学習。Java Gold SE17・AWS 3冠を取得し、バックエンドとクラウドの基礎を確立しました。学んだ技術は座学で終わらせず、福祉の現場で感じた課題を題材にした社内向けWebアプリや備品管理システムなど、5つの作品として実装まで形にしました。</p>
                     <div className="badgelist">
                       <div className="badge">Java Gold SE17</div>
                       <div className="badge">AWS AIF</div>
@@ -241,10 +241,7 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>
-                          開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、技術書で学習しながら段階的にReact化する進め方を取りました。TypeScriptによる静的な型付けや、コンポーネントの分割を意識して設計しました。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux
-                          8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、サブドメインで動くSpring Boot（ShareCare）へのリバースプロキシを1台で担わせています。GitHub Actionsを使った自動デプロイにも対応しています。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
-                        </p>
+                        <p>開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、技術書で学習しながら段階的にReact化する進め方を取りました。TypeScriptによる静的な型付けや、コンポーネントの分割を意識して設計しました。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux 8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、サブドメインで動くSpring Boot（ShareCare）へのリバースプロキシを1台で担わせています。GitHub Actionsを使った自動デプロイにも対応しています。雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。</p>
                       </div>
                     </div>
                   </DetailAccordion>
@@ -321,10 +318,7 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>
-                          趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。
-                          ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。
-                        </p>
+                        <p>趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。 ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。</p>
                       </div>
                     </div>
                   </DetailAccordion>
@@ -939,7 +933,7 @@ function App() {
                     <h3 className="title">
                       <a href="https://ojisan-ai.jp" target="_blank">
                         『おじさんAI』
-                      </a>{' '}
+                      </a>{" "}
                       を運営しています。
                     </h3>
                     <p>AIが得意じゃない人のための情報発信サイトです。メディア構築・リサーチ・構成案作成・記事執筆・SEO・LLMO・AIO・各種メンテナンスなど、すべて自分で行っています。</p>
@@ -963,8 +957,6 @@ function App() {
                   <br />
                   エンジニアを目指しています。 <br />
                   ぜひ、一緒に働く機会をいただけたら嬉しいです。
-                  <br />
-                  （2027年4月から就業可能です）
                 </p>
               </div>
               <div className="contact">
