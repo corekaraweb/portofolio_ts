@@ -217,11 +217,19 @@ main .txt {
   background: rgba(255, 255, 255, 0.04);
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+  border-left-width: 8px;
   padding: 10px 20px;
   margin-bottom: 30px;
 }
 .main-inner.top .top-inner .appeal .sc:last-child {
   margin-bottom: 0;
+  border-left-color: #cccccc;
+}
+.main-inner.top .top-inner .appeal .sc:nth-child(1) {
+  border-left-color: rgb(0, 168.5, 145.9175257732);
+}
+.main-inner.top .top-inner .appeal .sc:nth-child(2) {
+  border-left-color: rgb(240.1983695652, 153.6657608696, 60.3016304348);
 }
 .main-inner.top .top-inner .appeal .sc .snum {
   font-family: "Space Grotesk", sans-serif;

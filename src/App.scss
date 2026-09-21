@@ -250,10 +250,18 @@ main {
         background: rgba(255, 255, 255, 0.04);
         border: 2px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
+        border-left-width: 8px;
         padding: 10px 20px;
         margin-bottom: 30px;
         &:last-child {
           margin-bottom: 0;
+          border-left-color: darken(#ffffff, 20%);
+        }
+        &:nth-child(1) {
+          border-left-color: darken($mainColor, 5%);
+        }
+        &:nth-child(2) {
+          border-left-color: darken($subColor, 5%);
         }
         .snum {
           font-family: 'Space Grotesk', sans-serif;
