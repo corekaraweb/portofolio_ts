@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 import './App.css';
+import mockupAiagent from './assets/mockup_aiagent.png';
 import mockupPhotomamire from './assets/mockup_photomamire.png';
 import mockupPortfolio from './assets/mockup_portfolio.png';
 import ojisanai_eyecatch from './assets/ojisanai_eyecatch.jpg';
@@ -490,7 +491,7 @@ function App() {
                 <div className="item wow animated fadeInUp">
                   <div className="contents">
                     <div className="img">
-                      <img src="https://placehold.jp/1800x1200.png" alt="" />
+                      <img src={mockupAiagent} alt="" />
                     </div>
                     <div className="txt">
                       <h2>【番外編】AIエージェント開発『Oreflix』</h2>
@@ -559,7 +560,11 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>現在開発中！</p>
+                        <p>
+                          Claude
+                          Codeを活用したWebアプリケーションです。YouTubeには複数の再生リストを同時に表示するUIはありませんが、Oreflixでは、公開されている再生リストであれば、いくつでも登録でき、サムネイルのリストとしてページ内に複数表示させることが可能です。YouTubeのAPIと再生リストの登録はパスワード制限された専用に管理画面で行います。マウスのドラッグアンドドロップで再生リストの並び替えや、再生リスト名の編集機能など、機能とデザインの両面で使いやすいアプリケーションになっています。特別な指示をしなくても、再生リストやサムネイルのキャッシュ機能が搭載されており、AIエージェントの優秀さを実感できました。今後はClaude
+                          Codeやモデルの進歩に応じて、開発者としてもプロンプトによる指示やハーネス設計も改良しながら、より良いWebアプリケーションとして育てていく楽しみも見つけ出すことができました。
+                        </p>
                       </div>
                     </div>
                     <div className="assets"></div>

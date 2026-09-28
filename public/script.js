@@ -91,7 +91,9 @@ window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       loader.style.opacity = '0';
       loader.style.transition = 'opacity 0.5s';
-      new WOW().init();
+      if (window.innerWidth >= 1024) {
+        new WOW().init();
+      }
       setTimeout(() => {
         if (loader.parentNode) {
           loader.parentNode.removeChild(loader);
