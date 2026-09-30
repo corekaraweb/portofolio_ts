@@ -343,8 +343,7 @@ function App() {
                         <span>Laravel</span>
                         <span>React</span>
                         <span>TypeScript</span>
-                        <span>Database</span>
-                        <span>Node.js</span>
+                        <span>MariaDB</span>
                         <span>GitHub</span>
                         <span>AWS</span>
                       </div>
@@ -530,7 +529,7 @@ function App() {
                             </tr>
                             <tr>
                               <th>データベース</th>
-                              <td>MariaDB</td>
+                              <td>未使用</td>
                             </tr>
                             <tr>
                               <th>インフラ</th>
