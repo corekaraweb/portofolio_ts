@@ -1,12 +1,11 @@
 # Engineer in Training
 
-<!-- バッジ：shields.io / style=for-the-badge で統一 -->
+
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 > React + TypeScript で構築した、福祉 × IT エンジニアの個人ポートフォリオサイト
-
-![スクリーンショット](docs/screenshot.png)
 
 ## 📖 概要
 
@@ -31,27 +30,31 @@
 
 公開中の作品カード：
 
-| 作品 | 概要 |
-|---|---|
-| Engineer in Training（本サイト） | React + TypeScript のメインポートフォリオ |
-| 写真まみれ | WordPress オリジナルテーマの写真ブログ |
-| Oreflix | YouTube 再生リストを並べて閲覧する AI エージェント開発 |
+
+| 作品                         | 概要                                |
+| -------------------------- | --------------------------------- |
+| Engineer in Training（本サイト） | React + TypeScript のメインポートフォリオ    |
+| 写真まみれ                      | WordPress オリジナルテーマの写真ブログ          |
+| Oreflix                    | YouTube 再生リストを並べて閲覧する AI エージェント開発 |
+
 
 `HubCare`（Laravel + React）と `ShareCare`（Java + Spring Boot）のセクションは `App.tsx` 内でコメントアウト。
 
 ## 🛠 技術スタック
 
-| 分類 | 技術 |
-|---|---|
-| 言語 | TypeScript 5.9（`typescript` ~6.0.2）、HTML、CSS |
-| フレームワーク | React 19.2、React DOM 19.2 |
-| ビルド | Vite 8.2（`@vitejs/plugin-react`、`base: './'`） |
-| リンター | ESLint 10（typescript-eslint、react-hooks、react-refresh） |
-| スタイル | `src/App.css` を読み込み。ソースとして `src/App.scss` / `src/App.css.map` あり（npm スクリプトでの Sass コンパイルは未定義） |
-| データベース | 該当なし |
-| CDN | Animate.css 3.6.2、MailtoUI 1.0.2、WOW.js 1.1.3 |
-| 静的 JS | `public/setting.js`（particles.js 初期化）、`public/script.js`（ローダー・キャンバス同期）。`public/particles.min.js` の読み込みは `index.html` でコメントアウト |
-| 解析 | Lunalys（`hideki-murakami.pro` の tracker.js） |
+
+| 分類      | 技術                                                                                                                            |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 言語      | TypeScript 5.9（`typescript` ~6.0.2）、HTML、CSS                                                                                  |
+| フレームワーク | React 19.2、React DOM 19.2                                                                                                     |
+| ビルド     | Vite 8.2（`@vitejs/plugin-react`、`base: './'`）                                                                                 |
+| リンター    | ESLint 10（typescript-eslint、react-hooks、react-refresh）                                                                        |
+| スタイル    | `src/App.css` を読み込み。ソースとして `src/App.scss` / `src/App.css.map` あり（npm スクリプトでの Sass コンパイルは未定義）                                  |
+| データベース  | 該当なし                                                                                                                          |
+| CDN     | Animate.css 3.6.2、MailtoUI 1.0.2、WOW.js 1.1.3                                                                                 |
+| 静的 JS   | `public/setting.js`（particles.js 初期化）、`public/script.js`（ローダー・キャンバス同期）。`public/particles.min.js` の読み込みは `index.html` でコメントアウト |
+| 解析      | Lunalys（`hideki-murakami.pro` の tracker.js）                                                                                   |
+
 
 依存関係は `package.json` / `package-lock.json` に準拠。DB クライアントやバックエンド用パッケージはなし。
 
@@ -65,12 +68,14 @@ cd portofolio_ts
 npm install
 ```
 
-| コマンド | 内容 |
-|---|---|
-| `npm run dev` | 開発サーバー起動（Vite、`--open`） |
-| `npm run build` | `tsc -b` の型チェック後、本番ビルド（出力先 `dist/`） |
-| `npm run preview` | ビルド結果のプレビュー |
-| `npm run lint` | ESLint 実行 |
+
+| コマンド              | 内容                                  |
+| ----------------- | ----------------------------------- |
+| `npm run dev`     | 開発サーバー起動（Vite、`--open`）             |
+| `npm run build`   | `tsc -b` の型チェック後、本番ビルド（出力先 `dist/`） |
+| `npm run preview` | ビルド結果のプレビュー                         |
+| `npm run lint`    | ESLint 実行                           |
+
 
 開発サーバーの URL は Vite 既定（通常 `http://localhost:5173/`）。
 
@@ -104,8 +109,10 @@ npm install
 
 ## 🔗 デモ
 
-- 公開サイト：https://hideki-murakami.pro/
-- リポジトリ：https://github.com/corekaraweb/portofolio_ts
+- 公開サイト：[https://hideki-murakami.pro/](https://hideki-murakami.pro/)
+- リポジトリ：[https://github.com/corekaraweb/portofolio_ts](https://github.com/corekaraweb/portofolio_ts)
+
+
 
 ## 📝 今後の予定
 
@@ -113,6 +120,8 @@ npm install
 - `App.tsx` でコメントアウト中の HubCare / ShareCare セクションの公開
 - `index.html` でコメントアウト中の `particles.min.js` 読み込み方針の確定
 - TODO: その他の機能追加・公開スケジュール
+
+
 
 ## 📄 ライセンス
 
