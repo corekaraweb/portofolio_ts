@@ -629,7 +629,9 @@ function App() {
                 <h2>IT民間資格</h2>
                 <ul>
                   <li>Java Gold SE17</li>
-                  <li>AWS SAA / AIF / CLF</li>
+                  <li>AWS Certified Solutions Architect – Associate</li>
+                  <li>AWS Certified AI Practitioner</li>
+                  <li>AWS Certified Cloud Practitioner</li>
                   <li>G検定</li>
                   <li>生成AIパスポート</li>
                   <li>Salesforce認定Platformアドミニストレーター</li>
@@ -673,13 +675,7 @@ function App() {
                   <li>カラーコーディネーター3級</li>
                 </ul>
               </div>
-              <div className="credential-item appendix wow animated slideInUp">
-                <p>
-                  ※放送大学 心理と教育コースで学ぶ大学生でもあります。
-                  <br />
-                  （2027年3月卒業見込み）
-                </p>
-              </div>
+              <div className="credential-item appendix wow animated slideInUp"></div>
             </div>
           </div>
         </div>
@@ -755,35 +751,34 @@ function App() {
             <p className="sub">Achievement TIMELINE</p>
             <h1 className="wow animated fadeInLeft">2026 → 2027 達成の軌跡</h1>
             <div className="txt">
-              <p>
-                職業訓練をフル活用し、資格取得とポートフォリオ作成まで一気に駆け抜けました。GitHubで
-                <a href="https://github.com/corekaraweb/study-log" target="_blank">
-                  日々の学習記録
-                </a>
-                を書いています。
-              </p>
+              <p>キチンと計画を立てて職業訓練をフル活用し、資格取得とポートフォリオ作成まで一気に駆け抜けました。（2027年3月時点の状態を想定しています）</p>
             </div>
             <div className="seasons">
+              <div className="season-list">
+                <div className="season">2026 3月</div>
+                <div className="items">
+                  <div className="item licence">G検定 合格</div>（※予習として短期間で合格）
+                </div>
+              </div>
               <div className="season-list">
                 <div className="season">2026 4月</div>
                 <div className="items">
                   <div className="item activity">職業訓練開始</div>
                   <div className="item activity">Java学習開始</div>
-                  <div className="item licence">G検定 合格</div>
                   <div className="item licence">Java Bronze 合格</div>
                 </div>
               </div>
               <div className="season-list">
                 <div className="season">2026 5月</div>
                 <div className="items">
-                  <div className="item licence fail">Java Silver SE17 不合格</div>
+                  <div className="item licence fail">Java Silver SE17 不合格</div>（※着実な知識を身に付けるために、勉強方法を見直すきっかけになりました）
                 </div>
               </div>
               <div className="season-list">
                 <div className="season">2026 6月</div>
                 <div className="items">
                   <div className="item activity">AWS学習開始</div>
-                  <div className="item licence">Java Silver SE17 合格</div>
+                  <div className="item licence">Java Silver SE17 合格</div>（※ボーダーラインを大幅に上回る86点で合格）
                 </div>
               </div>
               <div className="season-list">
@@ -807,16 +802,15 @@ function App() {
                 <div className="season">2026 9月</div>
                 <div className="items">
                   <div className="item activity">社会福祉士試験学習開始</div>
-                  <div className="item licence">Java Gold SE17 合格</div>
+                  <div className="item licence">Java Gold SE17 合格</div>（※AWSの学習と並行しながら対策しました）
                 </div>
               </div>
               <div className="season-list">
                 <div className="season">2026 10月</div>
                 <div className="items">
                   <div className="item activity">Laravel学習開始</div>
-
                   <div className="item activity">ポートフォリオ（React+TypeScript）完成</div>
-                  <div className="item licence">AWS SAA 合格</div>
+                  <div className="item licence">AWS SAA 合格</div>（※AWS 3冠達成）
                 </div>
               </div>
               <div className="season-list">
@@ -842,15 +836,16 @@ function App() {
               <div className="season-list">
                 <div className="season">2027 2月</div>
                 <div className="items">
-                  <div className="item activity">社会福祉士国家試験</div>
+                  <div className="item activity">社会福祉士国家試験</div>（※職業訓練と並行して学習を進めました）
                 </div>
               </div>
               <div className="season-list">
                 <div className="season">2027 3月</div>
                 <div className="items">
+                  <div className="item activity">職業訓練修了</div>
+                  <div className="item activity">放送大学 心理と教育コース卒業</div>
                   <div className="item licence">社会福祉士 合格</div>
                   <div className="item licence">心理学検定1級 合格</div>
-                  <div className="item activity">職業訓練修了</div>
                 </div>
               </div>
             </div>
