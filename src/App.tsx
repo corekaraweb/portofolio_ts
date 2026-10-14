@@ -224,7 +224,7 @@ function App() {
                               <td>
                                 さくらのVPS
                                 <br />
-                                （Rocky Linux 8 / Nginx / メモリ 2GB / SSD 2026年～2027年00GB）
+                                （Rocky Linux 8 / Nginx / メモリ 2GB / SSD 200GB）
                               </td>
                             </tr>
                             <tr>
