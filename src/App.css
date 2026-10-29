@@ -498,6 +498,49 @@ main .txt {
   padding: 10px 40px;
   border: 2px solid #ccc;
 }
+.main-inner.portfolio .portfolio-inner .itemlist .other {
+  margin: 0 30px;
+  padding-top: 60px;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #fff;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other .otherInner > p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other .workList {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other .works {
+  display: flex;
+  width: 100%;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other .works h3 {
+  font-size: 18px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other .works .icon {
+  width: 150px;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other .works .icon img {
+  width: 150px;
+  height: auto;
+}
+.main-inner.portfolio .portfolio-inner .itemlist .other .works .txt {
+  padding: 0 20px 0 30px;
+  flex: 1;
+  font-size: 15px;
+}
 
 .main-inner.career {
   padding: 180px 40px 100px;

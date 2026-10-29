@@ -504,6 +504,48 @@ main {
           }
         }
       }
+      .other {
+        margin: 0 30px;
+        padding-top: 60px;
+        h2 {
+          width: fit-content;
+          font-size: 24px;
+          padding: 10px;
+          margin-bottom: 30px;
+          border-bottom: 5px solid #fff;
+        }
+        .otherInner > p {
+          font-size: 16px;
+          line-height: 1.8;
+          margin-bottom: 30px;
+        }
+        .workList {
+          display: grid;
+          gap: 30px;
+          grid-template-columns: 1fr 1fr;
+        }
+        .works {
+          display: flex;
+          width: 100%;
+          h3 {
+            font-size: 18px;
+            border-bottom: 1px solid #fff;
+            margin-bottom: 5px;
+          }
+          .icon {
+            width: 150px;
+            img {
+              width: 150px;
+              height: auto;
+            }
+          }
+          .txt {
+            padding: 0 20px 0 30px;
+            flex: 1;
+            font-size: 15px;
+          }
+        }
+      }
     }
   }
 }
