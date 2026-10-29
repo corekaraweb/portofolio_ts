@@ -251,6 +251,67 @@ main .txt {
   margin-top: 2px;
 }
 
+.main-inner.profile {
+  padding: 180px 40px 100px;
+  background-color: rgba(44, 76, 145, 0.3);
+  clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);
+  margin-bottom: -81px;
+  padding-bottom: 160px;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.profile {
+    padding: 50px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 0px), 0 100%);
+  }
+}
+.main-inner.profile .profile-inner {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.main-inner.profile .profile-inner .contents {
+  display: flex;
+  gap: 20px;
+}
+.main-inner.profile .profile-inner .contents .img {
+  width: 350px;
+}
+.main-inner.profile .profile-inner .contents .img img {
+  width: 350px;
+  height: auto;
+}
+.main-inner.profile .profile-inner .contents .txt {
+  flex: 1;
+  font-size: 17px;
+}
+.main-inner.profile .profile-inner .mind {
+  margin-top: 50px;
+}
+.main-inner.profile .profile-inner .mind h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.main-inner.profile .profile-inner .mind .mind-inner {
+  display: flex;
+  margin-bottom: 100px;
+}
+.main-inner.profile .profile-inner .mind .mind-inner h4 {
+  width: 360px;
+}
+.main-inner.profile .profile-inner .mind .mind-inner h4 span {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid #fff;
+  font-size: 24px;
+  padding-bottom: 7px;
+}
+.main-inner.profile .profile-inner .mind .mind-inner .body {
+  flex: 1;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
 .main-inner.portfolio {
   padding: 180px 40px 100px;
   clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);

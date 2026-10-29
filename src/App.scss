@@ -287,6 +287,64 @@ main {
   }
 }
 
+.main-inner.profile {
+  padding: $pcPadding;
+  background-color: rgba(44, 76, 145, 0.3);
+  clip-path: $clipPath;
+  margin-bottom: -81px;
+  padding-bottom: 160px;
+  @media screen and (max-width: 1024px) {
+    padding: $spPadding;
+    clip-path: $spClipPath;
+  }
+  .profile-inner {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    .contents {
+      display: flex;
+      gap: 20px;
+      .img {
+        width: 350px;
+        img {
+          width: 350px;
+          height: auto;
+        }
+      }
+      .txt {
+        flex: 1;
+        font-size: 17px;
+      }
+    }
+    .mind {
+      margin-top: 50px;
+      h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .mind-inner {
+        display: flex;
+        margin-bottom: 100px;
+        h4 {
+          width: 360px;
+          span {
+            width: fit-content;
+            border-bottom: 2px solid #fff;
+            font-size: 24px;
+            padding-bottom: 7px;
+          }
+        }
+        .body {
+          flex: 1;
+          font-size: 17px;
+          line-height: 1.8;
+        }
+      }
+    }
+  }
+}
+
 .main-inner.portfolio {
   padding: $pcPadding;
   // background-color: rgba(35, 111, 155, 0.3);

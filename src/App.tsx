@@ -110,6 +110,64 @@ function App() {
           </div>
         </div>
 
+        <div className="profile main-inner">
+          <div className="profile-inner">
+            <p className="sub">MY PROFILE</p>
+            <h1 className="wow animated fadeInLeft">プロフィール</h1>
+            <div className="txt">「私」という人間と、仕事で心がけていることを紹介します。</div>
+            <div className="contents">
+              <div className="img">
+                <img src="https://placehold.jp/400x400.png" alt="" width={400} height={400} />
+              </div>
+              <div className="txt">
+                <p>
+                  1979年に奈良県で誕生。千葉県に引っ越し中学2年生まで過ごす。そして再び奈良県へ。
+                  <br />
+                  <br />
+                  高校卒業後、１年間の浪人生活の後、立命館大学物理学科に入学。計算物理学という科目でUNIXと出会い、プログラミングを始めました。人生で初めて使った言語はPascal。自宅ではWindows 98のマシンでVisual Basic 6.0を使ってましたが、「WindowsでもPascalしたい！」と思い、出会ったのが「Delphi 6
+                  Personal」という統合開発環境。同じ時期にHTMLとCSSも覚えて、フリーソフト作家として自作ソフトをジオシティーズで公開していました。
+                  <br />
+                  <br />
+                  奈良から滋賀までの遠距離通学と卒業研究がうまく行かず、メンタルを壊し無事留年、そして中退。就職氷河期のど真ん中の世代ということもあり、20代は本当に厳しかったです・・・
+                  <br />
+                  <br />
+                  コツコツ続けていたWeb制作とプログラミングのスキルを生かして、まともな仕事に付けたのが30代になってから。当時は、WordPressとjQueryが出来れば仕事に困らない感じでした。コンテンツマーケティングにも興味を持ち、フリーランスのクリエイターになり、SEOの仕事もはじめました。
+                  <br />
+                  <br />
+                  2026年、生成AIの影響もあり「できることを増やしたい」と思い、公共職業訓練「ITシステム科」の門を叩きました。得意のWeb制作と人生を救ってくれた福祉を掛け合わせて、社会課題を解決できるエンジニアになることを目標としています。
+                </p>
+              </div>
+            </div>
+            <div className="mind">
+              <h3>～仕事で心がけていること～</h3>
+              <div className="mind-inner">
+                <h4>
+                  <span>1. 得意なことをやること</span>
+                </h4>
+                <div className="body">
+                  <p>フリーソフト開発で覚えたプログラミングや、WordPressのテーマ開発で身に付けたコーディングの知識を生かすことを第一に考えています。たとえば、デザインは苦手なので、得意な人にお任せすることにしています。お客様に完璧なWebサイトを提供することを目的としているので、それぞれが得意な分野で責任を持って貢献するのがベストであると考えています。</p>
+                </div>
+              </div>
+              <div className="mind-inner">
+                <h4>
+                  <span>2. チームワークを生かすこと</span>
+                </h4>
+                <div className="body">
+                  <p>フリーランスをしながら、様々な企業でも働いてきました。組織に所属して実感したのが、チームワークの強さです。</p>
+                </div>
+              </div>
+              <div className="mind-inner">
+                <h4>
+                  <span>3. 親切であること</span>
+                </h4>
+                <div className="body">
+                  <p>フリーソフト開発で覚えたプログラミングや、WordPressのテーマ開発で身に付けたコーディングの知識を生かすことを第一に考えています。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="career main-inner">
           <div className="career-inner">
             <p className="sub">CAREER JOURNEY</p>
