@@ -5,6 +5,7 @@ import mockupAiagent from './assets/mockup_aiagent.png';
 import mockupPhotomamire from './assets/mockup_photomamire.png';
 import mockupPortfolio from './assets/mockup_portfolio.png';
 import ojisanai_eyecatch from './assets/ojisanai_eyecatch.jpg';
+import profile from './assets/profile.jpg';
 import './reset.css';
 
 type MailtoUiApp = {
@@ -117,7 +118,7 @@ function App() {
             <div className="txt">「私」という人間と、仕事で心がけていることを紹介します。</div>
             <div className="contents">
               <div className="img">
-                <img src="https://placehold.jp/400x400.png" alt="" width={400} height={400} />
+                <img src={profile} alt="" />
               </div>
               <div className="txt">
                 <p>
@@ -145,15 +146,15 @@ function App() {
                   <span>1. 得意なことをやること</span>
                 </h4>
                 <div className="body">
-                  <p>フリーソフト開発で覚えたプログラミングや、WordPressのテーマ開発で身に付けたコーディングの知識を生かすことを第一に考えています。たとえば、デザインは苦手なので、得意な人にお任せすることにしています。お客様に完璧なWebサイトを提供することを目的としているので、それぞれが得意な分野で責任を持って貢献するのがベストであると考えています。</p>
+                  <p>フリーソフト開発で覚えたプログラミングや、WordPressのテーマ開発で身に付けたコーディングの知識を生かすことを第一に考えています。たとえば、デザインは苦手なので、得意な人にお任せすることにしています。お客様に完璧な成果物を提供することを目的としているので、それぞれが得意な分野で責任を持って貢献するのがベストであると考えています。</p>
                 </div>
               </div>
               <div className="mind-inner">
                 <h4>
-                  <span>2. チームワークを生かすこと</span>
+                  <span>2. 勉強すること</span>
                 </h4>
                 <div className="body">
-                  <p>フリーランスをしながら、様々な企業でも働いてきました。組織に所属して実感したのが、チームワークの強さです。</p>
+                  <p>エンジニアとして仕事していくためには、日々の勉強が欠かせないと考えております。Webサイトやソフトウェアの開発に必要な技術だけでなく、世の中にある様々な物に興味を持つことを心がけています。気になった技術と出会ったときは、時間のあるときに軽く調べて実装する手間を惜しまないようにしています。</p>
                 </div>
               </div>
               <div className="mind-inner">
@@ -161,7 +162,7 @@ function App() {
                   <span>3. 親切であること</span>
                 </h4>
                 <div className="body">
-                  <p>フリーソフト開発で覚えたプログラミングや、WordPressのテーマ開発で身に付けたコーディングの知識を生かすことを第一に考えています。</p>
+                  <p>結局のところ、仕事を長く続けるには、親切であることが一番重要な気がしています。業務上のちょっとしたコミュニケーションで不快に感じさせないやり取りや、お客様や仕事仲間にふさわしい接し方を心がけるなど、親切であることは奥が深いと思っています。技術に加えて、人間にも興味を持つことが親切の第一歩だと考えております。</p>
                 </div>
               </div>
             </div>

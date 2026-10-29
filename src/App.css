@@ -262,6 +262,8 @@ main .txt {
   .main-inner.profile {
     padding: 50px 20px;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 0px), 0 100%);
+    margin-bottom: 0;
+    padding-bottom: 80px;
   }
 }
 .main-inner.profile .profile-inner {
@@ -273,19 +275,34 @@ main .txt {
   display: flex;
   gap: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .main-inner.profile .profile-inner .contents {
+    display: block;
+  }
+}
 .main-inner.profile .profile-inner .contents .img {
-  width: 350px;
+  width: 330px;
 }
 .main-inner.profile .profile-inner .contents .img img {
-  width: 350px;
+  width: 330px;
   height: auto;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.profile .profile-inner .contents .img {
+    width: 100%;
+  }
+  .main-inner.profile .profile-inner .contents .img img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 30px;
+  }
 }
 .main-inner.profile .profile-inner .contents .txt {
   flex: 1;
   font-size: 17px;
 }
 .main-inner.profile .profile-inner .mind {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .main-inner.profile .profile-inner .mind h3 {
   text-align: center;
@@ -294,10 +311,15 @@ main .txt {
 }
 .main-inner.profile .profile-inner .mind .mind-inner {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.profile .profile-inner .mind .mind-inner {
+    display: block;
+  }
 }
 .main-inner.profile .profile-inner .mind .mind-inner h4 {
-  width: 360px;
+  width: 330px;
 }
 .main-inner.profile .profile-inner .mind .mind-inner h4 span {
   width: -moz-fit-content;
@@ -305,6 +327,11 @@ main .txt {
   border-bottom: 2px solid #fff;
   font-size: 24px;
   padding-bottom: 7px;
+}
+@media screen and (max-width: 1024px) {
+  .main-inner.profile .profile-inner .mind .mind-inner h4 {
+    margin-bottom: 25px;
+  }
 }
 .main-inner.profile .profile-inner .mind .mind-inner .body {
   flex: 1;
@@ -606,7 +633,7 @@ main .txt {
 }
 @media screen and (max-width: 1024px) {
   .main-inner.portfolio .portfolio-inner .itemlist .other .works h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 .main-inner.portfolio .portfolio-inner .itemlist .other .works .icon {
@@ -633,7 +660,7 @@ main .txt {
 @media screen and (max-width: 1024px) {
   .main-inner.portfolio .portfolio-inner .itemlist .other .works .txt {
     padding: 0;
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
