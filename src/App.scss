@@ -28,7 +28,7 @@ $pcPadding: 180px 40px 100px;
 $spPadding: 50px 20px;
 
 @mixin badge($br: 9999px, $fz: $topBadgeFontSize, $bgcolor: $topBadgeBg, $bdcolor: $topBadgeBg) {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   display: inline-block;
   border-width: 2px;
   border-style: solid;
@@ -64,7 +64,7 @@ $spPadding: 50px 20px;
 }
 body {
   font-size: $baseFontSize;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   background-color: #0d1b2a;
   color: #e7e7e7;
   letter-spacing: 1px;
@@ -149,7 +149,7 @@ p.sub {
   letter-spacing: 0.12em;
   color: rgba(0, 194, 168);
   text-transform: uppercase;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -175,7 +175,7 @@ main {
     // }
   }
   h1 {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: $subTitleFontSize;
     font-weight: 700;
     line-height: 1.2;
@@ -216,7 +216,7 @@ main {
       }
       h1 {
         font-size: $topFvFontSize;
-        font-family: 'Space Grotesk', sans-serif;
+        font-family: "Space Grotesk", sans-serif;
         font-weight: 700;
         line-height: 1.1;
         margin-bottom: 20px;
@@ -264,7 +264,7 @@ main {
           border-left-color: darken($subColor, 5%);
         }
         .snum {
-          font-family: 'Space Grotesk', sans-serif;
+          font-family: "Space Grotesk", sans-serif;
           font-size: $subTitleFontSize;
           font-weight: 700;
           .aca {
@@ -305,13 +305,28 @@ main {
     margin: 0 auto;
     .contents {
       display: flex;
-      gap: 20px;
+      gap: 40px;
       @media screen and (max-width: 1024px) {
         display: block;
       }
       .img {
         width: 330px;
+        height: 330px;
+        position: relative;
+        &::before {
+          content: "";
+          display: inline-block;
+          background-color: rgb(50, 85, 150, 0.5);
+          position: absolute;
+          right: -15px;
+          bottom: -15px;
+          width: 330px;
+          height: 330px;
+          z-index: 1;
+        }
         img {
+          position: relative;
+          z-index: 20;
           width: 330px;
           height: auto;
         }
@@ -334,11 +349,17 @@ main {
       h3 {
         text-align: center;
         font-size: 30px;
-        margin-bottom: 30px;
+        font-weight: bold;
+        margin-bottom: 60px;
+        color: $mainColor;
       }
       .mind-inner {
         display: flex;
-        margin-bottom: 70px;
+        background-color: rgba(35, 111, 155, 0.3);
+        border: 0.5px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 50px;
+        margin-bottom: 50px;
         @media screen and (max-width: 1024px) {
           display: block;
         }
@@ -346,7 +367,6 @@ main {
           width: 330px;
           span {
             width: fit-content;
-            border-bottom: 2px solid #fff;
             font-size: 24px;
             padding-bottom: 7px;
           }
@@ -391,7 +411,7 @@ main {
           content: counter(number, decimal-leading-zero);
           font-size: 70px;
           color: rgba(121, 121, 121, 0.3);
-          font-family: 'Roboto', sans-serif;
+          font-family: "Roboto", sans-serif;
           line-height: 1;
           z-index: 10;
         }
@@ -481,7 +501,7 @@ main {
               }
               &::before {
                 display: inline-block;
-                content: '';
+                content: "";
                 background-size: contain;
                 background-repeat: no-repeat;
                 width: 18px;
@@ -492,7 +512,7 @@ main {
               }
               &::after {
                 display: inline-block;
-                content: '≫';
+                content: "≫";
                 margin-left: 5px;
                 transition: 0.5s;
               }
@@ -664,7 +684,7 @@ main {
       padding: 0px 0 50px 0;
     }
     .year {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-size: 16px;
       color: #8fa3b1;
       font-weight: 500;
@@ -676,7 +696,7 @@ main {
     }
     h2 {
       color: #f2a653;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-size: $subTitleFontSize;
       font-weight: 700;
     }
@@ -715,7 +735,7 @@ main {
       margin-top: 10px;
       font-size: $subFontSize;
       line-height: 1.6;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       letter-spacing: 0.05em;
       h3 {
         color: #00c2a8;
@@ -760,7 +780,7 @@ main {
           margin-bottom: 20px;
         }
         h3 {
-          font-family: 'Space Grotesk', sans-serif;
+          font-family: "Space Grotesk", sans-serif;
           font-size: $baseFontSize;
           font-weight: 700;
           color: $subColor;
@@ -808,7 +828,7 @@ main {
         color: #dbdbdb;
       }
       h2 {
-        font-family: 'Space Grotesk', sans-serif;
+        font-family: "Space Grotesk", sans-serif;
         font-size: $subFontSize;
         font-weight: bold;
         color: $subColor;
@@ -869,7 +889,7 @@ main {
           padding: 6px 10px;
           border-radius: 6px;
           &::before {
-            content: '';
+            content: "";
             display: inline-block;
             margin-bottom: 4px;
             line-height: 1;
@@ -884,7 +904,7 @@ main {
           }
         }
         h3 {
-          font-family: 'Space Grotesk', sans-serif;
+          font-family: "Space Grotesk", sans-serif;
           font-size: $subFontSize;
           font-weight: 700;
           margin-bottom: 6px;
@@ -952,7 +972,7 @@ main {
     }
     .season {
       min-width: 120px;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-size: $subFontSize;
       color: $mainColor;
       padding-top: 2px;
@@ -976,12 +996,12 @@ main {
         &.licence {
           &::before {
             display: inline-block;
-            content: '✓';
+            content: "✓";
           }
           &.fail {
             @include badge(5px, $badgeFontSize, rgba(238, 36, 9, 0.12), rgba(236, 6, 6, 1));
             &::before {
-              content: '×';
+              content: "×";
               display: inline-block;
             }
           }
@@ -1027,7 +1047,7 @@ main {
             align-items: center;
             gap: 15px;
             h2 {
-              font-family: 'Space Grotesk', sans-serif;
+              font-family: "Space Grotesk", sans-serif;
               font-size: $subTitleFontSize;
               font-weight: 700;
               color: #f0f4f8;
@@ -1056,7 +1076,7 @@ main {
             }
           }
           &.cursor h2::before {
-            content: '';
+            content: "";
             display: inline-block;
             background-image: url(./assets/ico_cursor.png);
             background-size: cover;
@@ -1067,7 +1087,7 @@ main {
             height: 40px;
           }
           &.chatgpt h2::before {
-            content: '';
+            content: "";
             display: inline-block;
             background-image: url(./assets/ico_chatgpt.png);
             background-size: cover;
@@ -1078,7 +1098,7 @@ main {
             height: 40px;
           }
           &.claude h2::before {
-            content: '';
+            content: "";
             display: inline-block;
             background-image: url(./assets/ico_claude.png);
             background-size: cover;
@@ -1089,7 +1109,7 @@ main {
             height: 40px;
           }
           &.gemini h2::before {
-            content: '';
+            content: "";
             display: inline-block;
             background-image: url(./assets/ico_gemini.png);
             background-size: cover;
