@@ -1,12 +1,12 @@
-import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from "react";
-import "./App.css";
-import ico_webpage from "./assets/ico_webpage.png";
-import mockupAiagent from "./assets/mockup_aiagent.png";
-import mockupPhotomamire from "./assets/mockup_photomamire.png";
-import mockupPortfolio from "./assets/mockup_portfolio.png";
-import ojisanai_eyecatch from "./assets/ojisanai_eyecatch.jpg";
-import profile from "./assets/profile.jpg";
-import "./reset.css";
+import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
+import './App.css';
+import ico_webpage from './assets/ico_webpage.png';
+import mockupAiagent from './assets/mockup_aiagent.png';
+import mockupPhotomamire from './assets/mockup_photomamire.png';
+import mockupPortfolio from './assets/mockup_portfolio.png';
+import ojisanai_eyecatch from './assets/ojisanai_eyecatch.jpg';
+import profile from './assets/profile.jpg';
+import './reset.css';
 
 type MailtoUiApp = {
   listenForClickOnLink?: () => void;
@@ -21,7 +21,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
     if (!detailBlock) {
       return;
     }
-    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : "0";
+    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : '0';
   };
 
   const toggleOpen = () => {
@@ -41,7 +41,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
       <p className="btn" onClick={toggleOpen}>
         もっと詳しく<span className="arrow">↓</span>
       </p>
-      <div ref={blockRef} className={`detail-block${isOpen ? " is-open" : ""}`}>
+      <div ref={blockRef} className={`detail-block${isOpen ? ' is-open' : ''}`}>
         {children}
         <a className="close" href="#" onClick={handleClose}>
           閉じる
@@ -78,13 +78,15 @@ function App() {
                 <span>＋</span>
                 <div className="badge">障害福祉</div>
                 <span>＋</span>
-                <div className="badge">ITシステム科 職業訓練</div>
+                <div className="badge">ITシステム科</div>
               </div>
               <div className="txt">
                 <p>
-                  福祉の現場を知るエンジニアとして、 テクノロジーで社会課題を解決することを目指しています。 Java + AWS + Laravel + React + TypeScript を習得。
+                  福祉の現場を知るエンジニアとして、 テクノロジーで社会課題を解決することを目指しています。
                   <br />
-                  <span className="sub">※ 本サイトは2027年3月時点の完成形を想定して制作しています（2026年10月現在制作中）</span>
+                  現場の課題抽出から設計・開発・公開・運用、そして集客まで、一気通貫で担えるのが強みです。
+                  <br />
+                  <span className="sub">※ 本サイトは2027年3月時点の完成形を想定して制作しています（2026年11月現在制作中）</span>
                 </p>
               </div>
             </div>
@@ -118,20 +120,21 @@ function App() {
             <div className="txt">「私」という人間と、仕事で心がけていることを紹介します。</div>
             <div className="contents">
               <div className="img">
-                <img src={profile} alt="" />
+                <img className="sc box wow animated fadeInUp" src={profile} alt="" />
               </div>
-              <div className="txt">
+              <div className="txt sc box wow animated fadeInRight">
                 <p>
                   1979年に奈良県で誕生。千葉県に引っ越し中学2年生まで過ごす。そして再び奈良県へ。
                   <br />
                   <br />
-                  高校卒業後、１年間の浪人生活の後、立命館大学物理学科に入学。計算物理学という科目でUNIXと出会い、プログラミングを始めました。人生で初めて使った言語はPascal。自宅ではWindows 98のマシンでVisual Basic 6.0を使ってましたが、「WindowsでもPascalしたい！」と思い、出会ったのが「Delphi 6 Personal」という統合開発環境。同じ時期にHTMLとCSSも覚えて、フリーソフト作家として自作ソフトをジオシティーズで公開していました。
+                  高校卒業後、１年間の浪人生活の後、立命館大学物理学科に入学。計算物理学という科目でUNIXと出会い、プログラミングを始めました。人生で初めて使った言語はPascal。自宅ではWindows 98のマシンでVisual Basic 6.0を使ってましたが、「WindowsでもPascalしたい！」と思い、出会ったのが「Delphi 6
+                  Personal」という統合開発環境。同じ時期にHTMLとCSSも覚えて、フリーソフト作家として自作ソフトをジオシティーズで公開していました。
                   <br />
                   <br />
                   奈良から滋賀までの遠距離通学と卒業研究がうまく行かず、無事留年、そして中退。就職氷河期のど真ん中の世代ということもあり、20代は本当に厳しかったです・・・
                   <br />
                   <br />
-                  コツコツ続けていたWeb制作とプログラミングのスキルを生かして、キチンとした仕事に就けたのは30代になってから。当時は、WordPressとjQueryが出来れば仕事に困らない感じでした。コンテンツマーケティングにも興味を持ち、フリーランスのクリエイターになり、SEOの仕事もはじめました。
+                  コツコツ続けていたWeb制作とプログラミングのスキルを生かして、キチンとした仕事に就けたのは30代になってから。当時は、WordPressとjQueryが出来れば仕事に困らない感じでした。コンテンツマーケティングにも興味を持ち、フリーランスのクリエイターになり、WebマーケティングやSEOの仕事もはじめました。
                   <br />
                   <br />
                   2026年、生成AIの影響もあり「できることを増やしたい」と思い、公共職業訓練「ITシステム科」の門を叩きました。得意のWeb制作と支援者として勤務していた福祉を掛け合わせて、社会課題を解決できるエンジニアになることを目標としています。
@@ -140,7 +143,7 @@ function App() {
             </div>
             <div className="mind">
               <h3>～ 仕事で心がけていること ～</h3>
-              <div className="mind-inner">
+              <div className="mind-inner wow animated fadeInUp">
                 <h4>
                   <span>1. 得意なことをやること</span>
                 </h4>
@@ -148,7 +151,7 @@ function App() {
                   <p>フリーソフト開発で覚えたプログラミングや、WordPressのテーマ開発で身に付けたコーディングの知識を生かすことを第一に考えています。たとえば、デザインは苦手なので、得意な人にお任せすることにしています。お客様に完璧な成果物を提供することを目的としているので、それぞれが得意な分野で責任を持って貢献するのがベストであると考えています。</p>
                 </div>
               </div>
-              <div className="mind-inner">
+              <div className="mind-inner wow animated fadeInUp">
                 <h4>
                   <span>2. 勉強すること</span>
                 </h4>
@@ -156,7 +159,7 @@ function App() {
                   <p>エンジニアとして仕事していくためには、日々の勉強が欠かせないと考えております。気になった技術と出会ったときは、時間のあるときに調べて実装する手間を惜しまないようにしています。Webサイトやソフトウェアの開発に必要な技術だけでなく、世の中にある様々な物に興味を持つことを心がけています。</p>
                 </div>
               </div>
-              <div className="mind-inner">
+              <div className="mind-inner wow animated fadeInUp">
                 <h4>
                   <span>3. 親切であること</span>
                 </h4>
@@ -183,11 +186,12 @@ function App() {
                     <h2>WordPress × SEO × 障害福祉</h2>
                     <p>オリジナルテーマ開発・SEO施策・コンテンツ作成を13年間経験。ユーザー視点のWeb構築とプロジェクトマネジメントを現場で習得しました。うち約6年は障害福祉の事業所に所属し、WordPressテーマ開発やWebライティングを担当しました。その後、就労支援施設にてWeb制作の職業指導員となり、利用者・スタッフの双方と日々接する中で、福祉の現場に本当に必要なものが何かを考え続けてきました。</p>
                     <div className="badgelist">
+                      <div className="badge">Web Development</div>
+                      <div className="badge">Project Management</div>
                       <div className="badge">WordPress</div>
                       <div className="badge">PHP</div>
                       <div className="badge">JavaScript</div>
                       <div className="badge">SEO</div>
-                      <div className="badge">Web Marketing</div>
                     </div>
                   </div>
                 </div>
@@ -195,15 +199,14 @@ function App() {
                   <div className="year">2026年～2027年</div>
                   <div className="contents">
                     <h2>ITシステム科 職業訓練</h2>
-                    <p>Java・AWS・Laravel・React・TypeScript を体系的に学習。Java Gold SE17・AWS 3冠を取得し、バックエンドとクラウドの基礎を確立しました。学んだ技術は座学で終わらせず、エンジニアとしての技術力を証明するためのポートフォリオとして実装しました。</p>
+                    <p>Java・AWS・Laravel・React・TypeScript・LLMO を体系的に学習。Java Gold SE17・AWS 3冠を取得し、バックエンドとクラウドの基礎を確立しました。学んだ技術は座学で終わらせず、エンジニアとしての技術力を証明するためのポートフォリオとして実装しました。</p>
                     <div className="badgelist">
-                      <div className="badge">Java Gold SE17</div>
-                      <div className="badge">AWS AIF</div>
-                      <div className="badge">AWS CLF</div>
-                      <div className="badge">AWS SAA</div>
+                      <div className="badge">Java</div>
+                      <div className="badge">AWS</div>
                       <div className="badge">Laravel</div>
                       <div className="badge">React</div>
                       <div className="badge">TypeScript</div>
+                      <div className="badge">LLMO</div>
                     </div>
                     <div className="whynow">
                       <div className="whynow-inner">
@@ -303,7 +306,10 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、技術書で学習しながら段階的にReact化する進め方を取りました。TypeScriptによる静的な型付けや、コンポーネントの分割を意識して設計しました。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux 8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、アクセス解析プログラムの動作させています。技術と知識を知ってもらうために、Webサイトの機能やデザインといった雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。</p>
+                        <p>
+                          開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、技術書で学習しながら段階的にReact化する進め方を取りました。TypeScriptによる静的な型付けや、コンポーネントの分割を意識して設計しました。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux
+                          8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、アクセス解析プログラムの動作させています。技術と知識を知ってもらうために、Webサイトの機能やデザインといった雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
+                        </p>
                       </div>
                     </div>
                   </DetailAccordion>
@@ -382,7 +388,10 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。 ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。</p>
+                        <p>
+                          趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。
+                          ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。
+                        </p>
                       </div>
                     </div>
                   </DetailAccordion>
@@ -618,7 +627,11 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>Claude Codeを活用したWebアプリケーションです。YouTubeには複数の再生リストを同時に表示するUIはありませんが、Oreflixでは、公開されている再生リストであれば、いくつでも登録でき、サムネイルのリストとしてページ内に複数表示させることが可能です。YouTubeのAPIと再生リストの登録はパスワード制限された専用に管理画面で行います。マウスのドラッグアンドドロップで再生リストの並び替えや、再生リスト名の編集機能など、機能とデザインの両面で使いやすいアプリケーションになっています。特別な指示がなくても、再生リストのキャッシュ機能をデフォルトで搭載するなど、AIエージェントの優秀さを実感できました。今後はClaude Codeやモデルの進歩に応じて、開発者としてもプロンプトによる指示やハーネス設計も改良しながら、より良いWebアプリケーションとして育てていく楽しみも見つけ出すことができました。</p>
+                        <p>
+                          Claude
+                          Codeを活用したWebアプリケーションです。YouTubeには複数の再生リストを同時に表示するUIはありませんが、Oreflixでは、公開されている再生リストであれば、いくつでも登録でき、サムネイルのリストとしてページ内に複数表示させることが可能です。YouTubeのAPIと再生リストの登録はパスワード制限された専用に管理画面で行います。マウスのドラッグアンドドロップで再生リストの並び替えや、再生リスト名の編集機能など、機能とデザインの両面で使いやすいアプリケーションになっています。特別な指示がなくても、再生リストのキャッシュ機能をデフォルトで搭載するなど、AIエージェントの優秀さを実感できました。今後はClaude
+                          Codeやモデルの進歩に応じて、開発者としてもプロンプトによる指示やハーネス設計も改良しながら、より良いWebアプリケーションとして育てていく楽しみも見つけ出すことができました。
+                        </p>
                       </div>
                     </div>
                     <div className="assets"></div>
@@ -1075,7 +1088,7 @@ function App() {
                     <h3 className="title">
                       <a href="https://ojisan-ai.jp" target="_blank">
                         『おじさんAI』
-                      </a>{" "}
+                      </a>{' '}
                       を運営しています。
                     </h3>
                     <p>AIが得意じゃない人のための情報発信サイトです。メディア構築・リサーチ・構成案作成・記事執筆・SEO・LLMO・AIO・各種メンテナンスなど、すべて自分で行っています。</p>
