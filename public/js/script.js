@@ -71,7 +71,8 @@ window.addEventListener("scroll", () => {
     topBtn.classList.remove("is-active");
   }
 });
-topBtn.addEventListener("click", () => {
+topBtn.addEventListener("click", (e) => {
+  e.preventDefault;
   window.scroll({
     top: 0,
     behavior: "smooth",
