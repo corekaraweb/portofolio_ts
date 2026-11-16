@@ -62,3 +62,18 @@ window.addEventListener("DOMContentLoaded", () => {
     }, 600); // お好みで表示時間調整
   });
 });
+
+const topBtn = document.querySelector("#toTop");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    topBtn.classList.add("is-active");
+  } else {
+    topBtn.classList.remove("is-active");
+  }
+});
+topBtn.addEventListener("click", () => {
+  window.scroll({
+    top: 0,
+    behavior: "smooth",
+  });
+});
