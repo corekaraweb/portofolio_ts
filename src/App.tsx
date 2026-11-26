@@ -1,12 +1,12 @@
-import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
-import './App.css';
-import ico_webpage from './assets/ico_webpage.png';
-import mockupAiagent from './assets/mockup_aiagent.png';
-import mockupPhotomamire from './assets/mockup_photomamire.png';
-import mockupPortfolio from './assets/mockup_portfolio.png';
-import ojisanai_eyecatch from './assets/ojisanai_eyecatch.jpg';
-import profile from './assets/profile.jpg';
-import './reset.css';
+import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from "react";
+import "./App.css";
+import ico_webpage from "./assets/ico_webpage.png";
+import mockupAiagent from "./assets/mockup_aiagent.png";
+import mockupPhotomamire from "./assets/mockup_photomamire.png";
+import mockupPortfolio from "./assets/mockup_portfolio.png";
+import ojisanai_eyecatch from "./assets/ojisanai_eyecatch.jpg";
+import profile from "./assets/profile.jpg";
+import "./reset.css";
 
 type MailtoUiApp = {
   listenForClickOnLink?: () => void;
@@ -21,7 +21,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
     if (!detailBlock) {
       return;
     }
-    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : '0';
+    detailBlock.style.height = open ? `${detailBlock.scrollHeight}px` : "0";
   };
 
   const toggleOpen = () => {
@@ -41,7 +41,7 @@ function DetailAccordion({ children }: { children: ReactNode }) {
       <p className="btn" onClick={toggleOpen}>
         もっと詳しく<span className="arrow">↓</span>
       </p>
-      <div ref={blockRef} className={`detail-block${isOpen ? ' is-open' : ''}`}>
+      <div ref={blockRef} className={`detail-block${isOpen ? " is-open" : ""}`}>
         {children}
         <a className="close" href="#" onClick={handleClose}>
           閉じる
@@ -127,8 +127,7 @@ function App() {
                   1979年に奈良県で誕生。千葉県に引っ越し中学2年生まで過ごす。そして再び奈良県へ。
                   <br />
                   <br />
-                  高校卒業後、１年間の浪人生活の後、立命館大学物理学科に入学。計算物理学という科目でUNIXと出会い、プログラミングを始めました。人生で初めて使った言語はPascal。自宅ではWindows 98のマシンでVisual Basic 6.0を使ってましたが、「WindowsでもPascalしたい！」と思い、出会ったのが「Delphi 6
-                  Personal」という統合開発環境。同じ時期にHTMLとCSSも覚えて、フリーソフト作家として自作ソフトをジオシティーズで公開していました。
+                  高校卒業後、１年間の浪人生活の後、立命館大学物理学科に入学。計算物理学という科目でUNIXと出会い、プログラミングを始めました。人生で初めて使った言語はPascal。自宅ではWindows 98のマシンでVisual Basic 6.0を使ってましたが、「WindowsでもPascalしたい！」と思い、出会ったのが「Delphi 6 Personal」という統合開発環境。同じ時期にHTMLとCSSも覚えて、フリーソフト作家として自作ソフトをジオシティーズで公開していました。
                   <br />
                   <br />
                   奈良から滋賀までの遠距離通学と卒業研究がうまく行かず、無事留年、そして中退。就職氷河期のど真ん中の世代ということもあり、20代は本当に厳しかったです・・・
@@ -275,7 +274,7 @@ function App() {
                             </tr>
                             <tr>
                               <th>バックエンド</th>
-                              <td>PHP8.4.27</td>
+                              <td>PHP8.4.28</td>
                             </tr>
                             <tr>
                               <th>データベース</th>
@@ -306,10 +305,7 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>
-                          開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、技術書で学習しながら段階的にReact化する進め方を取りました。TypeScriptによる静的な型付けや、コンポーネントの分割を意識して設計しました。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux
-                          8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、アクセス解析プログラムの動作させています。技術と知識を知ってもらうために、Webサイトの機能やデザインといった雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。
-                        </p>
+                        <p>開発したプロダクトを公開するためのメインポートフォリオです。まずは静的HTML・CSSで構築し、技術書で学習しながら段階的にReact化する進め方を取りました。TypeScriptによる静的な型付けや、コンポーネントの分割を意識して設計しました。コンテンツの草案はClaudeと壁打ちして作り、最終文言は自分で決めました。インフラはさくらのVPSを採用。OSとしてRocky Linux 8を導入しました。その中で、Let's EncryptによるSSL対応や、Nginx、PHPが動作する環境を構築しました。このReactサイトの静的配信と、アクセス解析プログラムの動作させています。技術と知識を知ってもらうために、Webサイトの機能やデザインといった雰囲気だけを作るのではなく、しっかりとしたコンテンツとなることを意識しました。</p>
                       </div>
                     </div>
                   </DetailAccordion>
@@ -361,7 +357,7 @@ function App() {
                             </tr>
                             <tr>
                               <th>バックエンド</th>
-                              <td>PHP8.3.36</td>
+                              <td>PHP8.3.37</td>
                             </tr>
                             <tr>
                               <th>データベース</th>
@@ -388,10 +384,7 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>
-                          趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。
-                          ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。
-                        </p>
+                        <p>趣味で撮影した写真を公開している、WordPressのオリジナルテーマで構築した写真ブログです。トップページおよびアーカイブページにおいて、サムネイルのリストを斜めに傾けており、その状態で疑似的なスクロールを実装しています。このあたりのJavaScriptによる実装が、当作品の山場です。Cursorによるアシストにも助けられました。 ハンバーガーアイコンとしてハンバーガーのアニメーション画像を使うといった遊び心も出してみました。search.phpのメインクエリを改変し、直感的な検索も可能になっています。プロフィールや使用機材、お問い合わせフォーム（Contact Form 7）ページもしっかりと作り、完成したメディアとして構築することを目指しました。</p>
                       </div>
                     </div>
                   </DetailAccordion>
@@ -596,7 +589,7 @@ function App() {
                             </tr>
                             <tr>
                               <th>バックエンド</th>
-                              <td>PHP8.4.27</td>
+                              <td>PHP8.4.28</td>
                             </tr>
                             <tr>
                               <th>データベース</th>
@@ -627,11 +620,7 @@ function App() {
                       </div>
                       <div className="right">
                         <h3>工夫したところ</h3>
-                        <p>
-                          Claude
-                          Codeを活用したWebアプリケーションです。YouTubeには複数の再生リストを同時に表示するUIはありませんが、Oreflixでは、公開されている再生リストであれば、いくつでも登録でき、サムネイルのリストとしてページ内に複数表示させることが可能です。YouTubeのAPIと再生リストの登録はパスワード制限された専用に管理画面で行います。マウスのドラッグアンドドロップで再生リストの並び替えや、再生リスト名の編集機能など、機能とデザインの両面で使いやすいアプリケーションになっています。特別な指示がなくても、再生リストのキャッシュ機能をデフォルトで搭載するなど、AIエージェントの優秀さを実感できました。今後はClaude
-                          Codeやモデルの進歩に応じて、開発者としてもプロンプトによる指示やハーネス設計も改良しながら、より良いWebアプリケーションとして育てていく楽しみも見つけ出すことができました。
-                        </p>
+                        <p>Claude Codeを活用したWebアプリケーションです。YouTubeには複数の再生リストを同時に表示するUIはありませんが、Oreflixでは、公開されている再生リストであれば、いくつでも登録でき、サムネイルのリストとしてページ内に複数表示させることが可能です。YouTubeのAPIと再生リストの登録はパスワード制限された専用に管理画面で行います。マウスのドラッグアンドドロップで再生リストの並び替えや、再生リスト名の編集機能など、機能とデザインの両面で使いやすいアプリケーションになっています。特別な指示がなくても、再生リストのキャッシュ機能をデフォルトで搭載するなど、AIエージェントの優秀さを実感できました。今後はClaude Codeやモデルの進歩に応じて、開発者としてもプロンプトによる指示やハーネス設計も改良しながら、より良いWebアプリケーションとして育てていく楽しみも見つけ出すことができました。</p>
                       </div>
                     </div>
                     <div className="assets"></div>
@@ -917,7 +906,7 @@ function App() {
               <div className="season-list">
                 <div className="season">2026 6月</div>
                 <div className="items">
-                  <div className="item activity">AWS学習開始</div>
+                  <div className="item activity">AWS AIF学習開始</div>
                   <div className="item licence">Java Silver SE17 合格</div>（※ボーダーラインを大幅に上回る86点で合格）
                 </div>
               </div>
@@ -933,7 +922,7 @@ function App() {
                 <div className="season">2026 8月</div>
                 <div className="items">
                   <div className="item activity">React学習開始</div>
-                  <div className="item activity">ポートフォリオ（WordPress）完成</div>
+                  <div className="item activity">AWS CLF学習開始</div>
                   <div className="item activity">ポートフォリオ（React+TypeScript）作成開始</div>
                   <div className="item licence">AWS CLF 合格</div>
                 </div>
@@ -941,6 +930,7 @@ function App() {
               <div className="season-list">
                 <div className="season">2026 9月</div>
                 <div className="items">
+                  <div className="item activity">AWS SAA学習開始</div>
                   <div className="item activity">社会福祉士試験学習開始</div>
                   <div className="item licence">Java Gold SE17 合格</div>（※AWSの学習と並行しながら対策しました）
                 </div>
@@ -949,28 +939,31 @@ function App() {
                 <div className="season">2026 10月</div>
                 <div className="items">
                   <div className="item activity">Laravel学習開始</div>
-                  <div className="item activity">ポートフォリオ（React+TypeScript）完成</div>
+                  <div className="item activity">ポートフォリオ（WordPress）完成</div>
                   <div className="item licence">AWS SAA 合格</div>（※AWS 3冠達成）
                 </div>
               </div>
               <div className="season-list">
                 <div className="season">2026 11月</div>
                 <div className="items">
-                  <div className="item activity">Spring Boot学習開始</div>
+                  {/* <div className="item activity">Spring Boot学習開始</div> */}
+                  <div className="item activity">LinuC学習開始</div>
+                  <div className="item activity">AWS SAP学習開始</div>
                   <div className="item activity">ポートフォリオ（Laravel＋React）作成開始</div>
                 </div>
               </div>
               <div className="season-list">
                 <div className="season">2026 12月</div>
                 <div className="items">
-                  <div className="item activity">ポートフォリオ（Java＋Spring Boot）作成開始</div>
-                  <div className="item activity">ポートフォリオ（Laravel＋React）完成</div>
+                  <div className="item activity">ポートフォリオ（React+TypeScript）完成予定</div>
+                  {/* <div className="item activity">ポートフォリオ（Java＋Spring Boot）作成開始</div> */}
                 </div>
               </div>
               <div className="season-list">
                 <div className="season">2027 1月</div>
                 <div className="items">
-                  <div className="item activity">ポートフォリオ（Java＋Spring Boot）完成</div>
+                  <div className="item activity">ポートフォリオ（Laravel＋React）完成予定</div>
+                  {/* <div className="item activity">ポートフォリオ（Java＋Spring Boot）完成</div> */}
                 </div>
               </div>
               <div className="season-list">
@@ -1088,7 +1081,7 @@ function App() {
                     <h3 className="title">
                       <a href="https://ojisan-ai.jp" target="_blank">
                         『おじさんAI』
-                      </a>{' '}
+                      </a>{" "}
                       を運営しています。
                     </h3>
                     <p>AIが得意じゃない人のための情報発信サイトです。メディア構築・リサーチ・構成案作成・記事執筆・SEO・LLMO・AIO・各種メンテナンスなど、すべて自分で行っています。</p>
